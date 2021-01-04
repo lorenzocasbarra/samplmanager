@@ -1,0 +1,16 @@
+g10.pdb
+g11.pdb
+g12.pdb
+g15.pdb
+g16.pdb
+g17.pdb
+g18.pdb
+g19.pdb
+g1.pdb
+g2.pdb
+g3.pdb
+g5.pdb
+g6.pdb
+g7.pdb
+g8.pdb
+g9.pdb

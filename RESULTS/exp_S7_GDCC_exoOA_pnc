@@ -1,0 +1,435 @@
+>File
+GDCC_MMPBSA_AM1-BCC_NoEntropy.txt
+>Category
+Alchemical
+>Name
+AM1-BCC/GAFF/MMPBSA
+>Predictions
+HG	SUB	REF
+exoOA-g1	-8.80	0
+exoOA-g2	-7.68	-1.3
+exoOA-g3	-12.66	-3.37
+exoOA-g4	-10.21	-3.61
+exoOA-g5	-14.40	-5.57
+exoOA-g6	-18.06	-5.83
+exoOA-g7	-18.44	-6.98
+exoOA-g8	-21.02	-7.67
+>mue
+9.6175
+>kendall
+0.857142857142857
+>pearson
+0.939796591350498
+>angular
+1.70392381265985
+>intercept
+-6.59678693892343
+>Lin
+0.18218890116976
+#
+>File
+GDCC_MMPBSA_RESP_Nmode.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA/Nmode
+>Predictions
+HG	SUB	REF
+exoOA-g1	4.37	0
+exoOA-g2	3.48	-1.3
+exoOA-g3	4.57	-3.37
+exoOA-g4	4.52	-3.61
+exoOA-g5	1.78	-5.57
+exoOA-g6	-1.14	-5.83
+exoOA-g7	-1.33	-6.98
+exoOA-g8	-3.61	-7.67
+>mue
+5.87125
+>kendall
+0.714285714285707
+>pearson
+0.851596275996763
+>angular
+1.00739451893249
+>intercept
+5.90298172936903
+>Lin
+0.259217154467163
+#
+>File
+GDCC_MMPBSA_RESP_NoEntropy_Linear.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA-Cor
+>Predictions
+HG	SUB	REF
+exoOA-g1	-3.84	0
+exoOA-g2	-3.73	-1.3
+exoOA-g3	-5.10	-3.37
+exoOA-g4	-4.96	-3.61
+exoOA-g5	-5.91	-5.57
+exoOA-g6	-7.02	-5.83
+exoOA-g7	-6.91	-6.98
+exoOA-g8	-7.77	-7.67
+>mue
+1.38125
+>kendall
+0.785714285714289
+>pearson
+0.965948803826604
+>angular
+0.535397170739811
+>intercept
+-3.35747689106279
+>Lin
+0.670456292226125
+#
+>File
+GDCC_MMPBSA_RESP_NoEntropy.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA
+>Predictions
+HG	SUB	REF
+exoOA-g1	-7.84	0
+exoOA-g2	-7.60	-1.3
+exoOA-g3	-10.62	-3.37
+exoOA-g4	-10.32	-3.61
+exoOA-g5	-12.41	-5.57
+exoOA-g6	-14.88	-5.83
+exoOA-g7	-14.64	-6.98
+exoOA-g8	-16.54	-7.67
+>mue
+7.565
+>kendall
+0.785714285714287
+>pearson
+0.965827350979283
+>angular
+1.18508387607136
+>intercept
+-6.77075881680877
+>Lin
+0.207434262078943
+#
+>File
+GDCC_Nuno_DZ.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_DZ  
+>Predictions
+HG	SUB	REF
+exoOA-g1	2.7	0
+exoOA-g2	-2.2	-1.3
+exoOA-g3	-10.4	-3.37
+exoOA-g4	-7.0	-3.61
+exoOA-g5	-14.9	-5.57
+exoOA-g6	-17.9	-5.83
+exoOA-g7	-19.4	-6.98
+exoOA-g8	-14.5	-7.67
+>mue
+6.83375
+>kendall
+0.714285714285714
+>pearson
+0.937469778464673
+>angular
+2.69674776095447
+>intercept
+1.12241882919589
+>Lin
+0.355132000137017
+#
+>File
+GDCC_Nuno_TZ.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_TZ  
+>Predictions
+HG	SUB	REF
+exoOA-g1	5.8	0
+exoOA-g2	1.4	-1.3
+exoOA-g3	-6.2	-3.37
+exoOA-g4	-2.9	-3.61
+exoOA-g5	-11.1	-5.57
+exoOA-g6	-14.1	-5.83
+exoOA-g7	-15.7	-6.98
+exoOA-g8	-10.9	-7.67
+>mue
+4.72375
+>kendall
+0.714285714285715
+>pearson
+0.940550149090596
+>angular
+2.65613039254201
+>intercept
+4.6856195469959
+>Lin
+0.537195350400177
+#
+>File
+GDCC_submission.txt
+>Category
+Alchemical 
+>Name
+FSDAM/GAFF2/OPC3
+>Predictions
+HG	SUB	REF
+exoOA-g1	-5.8	0
+exoOA-g2	-10.2	-1.3
+exoOA-g3	-7.8	-3.37
+exoOA-g4	-7.8	-3.61
+exoOA-g5	-1.9	-5.57
+exoOA-g6	-4.4	-5.83
+exoOA-g7	-3.2	-6.98
+exoOA-g8	-3.4	-7.67
+>mue
+4.55875
+>kendall
+-0.464285714285715
+>pearson
+-0.716327437970096
+>angular
+-0.752240872173778
+>intercept
+-8.79055364271573
+>Lin
+-0.638930135783075
+#
+>File
+GDCC_Nuno_QZ_RANKED.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_QZ-R 
+>Predictions
+HG	SUB	REF
+exoOA-g1	2.7	0
+exoOA-g2	-2.2	-1.3
+exoOA-g3	-5.4	-3.37
+exoOA-g4	-2.2	-3.61
+exoOA-g5	-10.3	-5.57
+exoOA-g6	-13.5	-5.83
+exoOA-g7	-15.0	-6.98
+exoOA-g8	-10.2	-7.67
+>mue
+3.74875
+>kendall
+0.67857142857143
+>pearson
+0.911075602237974
+>angular
+2.09009325408761
+>intercept
+1.95661267660347
+>Lin
+0.563584154782368
+#
+>File
+GDCC-dserillon-1.txt.txt
+>Category
+Mixed
+>Name
+xtb-GNF/Machine Learning/CORINA MD
+>Predictions
+HG	SUB	REF
+exoOA-g1	-5.67	0
+exoOA-g2	-4.75	-1.3
+exoOA-g3	-6.60	-3.37
+exoOA-g4	-7.10	-3.61
+exoOA-g5	-3.91	-5.57
+exoOA-g6	-5.92	-5.83
+exoOA-g7	-5.67	-6.98
+exoOA-g8	-6.14	-7.67
+>mue
+2.55375
+>kendall
+0.107142857142856
+>pearson
+0.0336485105333564
+>angular
+0.0125303254187471
+>intercept
+-5.6662292410468
+>Lin
+0.0172017873167913
+#
+>File
+GDCC-ponder-2.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR_2
+>Predictions
+HG	SUB	REF
+exoOA-g1	-2.45	0
+exoOA-g2	-2.06	-1.3
+exoOA-g3	-2.01	-3.37
+exoOA-g4	-1.66	-3.61
+exoOA-g5	-5.09	-5.57
+exoOA-g6	-5.59	-5.83
+exoOA-g7	-8.95	-6.98
+exoOA-g8	-8.04	-7.67
+>mue
+1.1975
+>kendall
+0.500000000000008
+>pearson
+0.853483292947585
+>angular
+0.909559926144925
+>intercept
+-0.578100966930589
+>Lin
+0.849519899965037
+#
+>File
+GDCC-ponder.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR
+>Predictions
+HG	SUB	REF
+exoOA-g1	-0.98	0
+exoOA-g2	-1.92	-1.3
+exoOA-g3	-2.16	-3.37
+exoOA-g4	-0.67	-3.61
+exoOA-g5	-5.09	-5.57
+exoOA-g6	-5.59	-5.83
+exoOA-g7	-7.23	-6.98
+exoOA-g8	-7.04	-7.67
+>mue
+0.91875
+>kendall
+0.714285714285715
+>pearson
+0.897143183981666
+>angular
+0.895136948750803
+>intercept
+0.00625643132688403
+>Lin
+0.882786814369302
+#
+>File
+GDCC_Nuno_QZ_NON_RANKED.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_QZ-NR 
+>Predictions
+HG	SUB	REF
+exoOA-g1	6.4	0
+exoOA-g2	1.9	-1.3
+exoOA-g3	-5.4	-3.37
+exoOA-g4	-2.2	-3.61
+exoOA-g5	-10.3	-5.57
+exoOA-g6	-13.5	-5.83
+exoOA-g7	-15.0	-6.98
+exoOA-g8	-10.2	-7.67
+>mue
+4.49875
+>kendall
+0.714285714285716
+>pearson
+0.94000117221105
+>angular
+2.63841433222947
+>intercept
+5.2845955031797
+>Lin
+0.564151866438458
+#
+>File
+GDCC_MMGBSA_RESP_NoEntropy.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMGBSA
+>Predictions
+HG	SUB	REF
+exoOA-g1	-11.54	0
+exoOA-g2	-10.25	-1.3
+exoOA-g3	-12.65	-3.37
+exoOA-g4	-13.91	-3.61
+exoOA-g5	-16.26	-5.57
+exoOA-g6	-17.91	-5.83
+exoOA-g7	-20.53	-6.98
+exoOA-g8	-19.82	-7.67
+>mue
+11.0675
+>kendall
+0.857142857142857
+>pearson
+0.946890703791203
+>angular
+1.34844718999269
+>intercept
+-9.57222599594387
+>Lin
+0.121915877716056
+#
+>File
+GDCC-ponder-3.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR_3
+>Predictions
+HG	SUB	REF
+exoOA-g1	0.50	0
+exoOA-g2	-1.78	-1.3
+exoOA-g3	-2.16	-3.37
+exoOA-g4	-0.67	-3.61
+exoOA-g5	-3.61	-5.57
+exoOA-g6	-4.51	-5.83
+exoOA-g7	-5.51	-6.98
+exoOA-g8	-6.03	-7.67
+>mue
+1.44
+>kendall
+0.857142857142857
+>pearson
+0.931116263034838
+>angular
+0.80118849094189
+>intercept
+0.466850111754386
+>Lin
+0.796415289528814
+#
+>File
+ourdock.txt
+>Category
+Docking
+>Name
+autodock4_default
+>Predictions
+HG	SUB	REF
+exoOA-g1	-4.389547357327	0
+exoOA-g2	-5.43	-1.3
+exoOA-g3	-6.87087586495511	-3.37
+exoOA-g4	-6.62503348264813	-3.61
+exoOA-g5	-7.97087586495512	-5.57
+exoOA-g6	-6.83609183938539	-5.83
+exoOA-g7	-8.44609183938539	-6.98
+exoOA-g8	-9.88	-7.67
+>mue
+2.76481453108202
+>kendall
+0.785714285714301
+>pearson
+0.945914371323714
+>angular
+0.601694150568777
+>intercept
+-4.47404450745376
+>Lin
+0.463527517214362
+#

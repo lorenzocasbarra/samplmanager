@@ -1,0 +1,31 @@
+# Results for CB8
+#
+
+Predictions:
+CB8-G3, -19.35, 0.12, 5.83, -11.58, 0.51, 1.9
+CB8-G4, -18.96, 0.17, 5.83, -3.36, 0.52, 1.9
+CB8-G5, -16.01, 0.15, 5.83, -15.32, 0.99, 1.9
+CB8-G6, -15.66, 0.18, 5.83, -12.88, 0.51, 1.9
+CB8-G7, -14.86, 0.15, 5.83, 2.44, 0.53, 1.9
+CB8-G1, -13.47, 0.13, 5.83, -7.96, 0.53, 1.9
+CB8-G2, -11.95, 0.18, 5.83, -5.94, 0.52, 1.9
+#
+Participant name:
+Suleyman Selim Cinaroglu
+#
+Participant organization:
+University of Oxford, Oxford
+#
+Name:
+ABFE/Parsley-GAFF-BCC/TIP3P/MD/NoBuffer1
+#
+Software:
+Gromacs 2020.2
+AmberTool 2019
+#
+Category:
+Alchemical
+#
+Ranked:
+True
+#

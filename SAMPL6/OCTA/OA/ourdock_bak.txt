@@ -1,0 +1,31 @@
+Predictions:
+OA-G1,  -4.26 
+OA-G0,  -5.63 
+OA-G4,  -6.99 
+OA-G3,  -4.85 
+OA-G7,  -7.40 
+OA-G6,  -5.24 
+OA-G2,  -8.16 
+OA-G5,  -5.41 
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

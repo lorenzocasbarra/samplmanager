@@ -1,0 +1,435 @@
+>File
+GDCC_MMPBSA_AM1-BCC_NoEntropy.txt
+>Category
+Alchemical
+>Name
+AM1-BCC/GAFF/MMPBSA
+>Predictions
+HG	SUB	REF
+OA-g1	-12.55	-4.97
+OA-g2	-11.66	-6.91
+OA-g3	-18.34	-8.1
+OA-g4	-18.55	-6.76
+OA-g5	-15.84	-4.73
+OA-g6	-18.36	-4.97
+OA-g7	-19.94	-6.07
+OA-g8	-21.70	-8.25
+>mue
+10.7725
+>kendall
+0.250000000000045
+>pearson
+0.414720770262316
+>angular
+1.04239843109706
+>intercept
+-10.5034819546891
+>Lin
+0.0277039233384114
+#
+>File
+GDCC_MMPBSA_RESP_Nmode.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA/Nmode
+>Predictions
+HG	SUB	REF
+OA-g1	-1.41	-4.97
+OA-g2	-1.49	-6.91
+OA-g3	-2.79	-8.1
+OA-g4	-3.80	-6.76
+OA-g5	0.28	-4.73
+OA-g6	-3.21	-4.97
+OA-g7	-1.81	-6.07
+OA-g8	-4.71	-8.25
+>mue
+3.9775
+>kendall
+0.535714285714282
+>pearson
+0.640719269594864
+>angular
+0.723700386371618
+>intercept
+2.22437895152792
+>Lin
+0.125453971161494
+#
+>File
+GDCC_MMPBSA_RESP_NoEntropy_Linear.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA-Cor
+>Predictions
+HG	SUB	REF
+OA-g1	-6.18	-4.97
+OA-g2	-5.90	-6.91
+OA-g3	-8.13	-8.1
+OA-g4	-8.65	-6.76
+OA-g5	-6.64	-4.73
+OA-g6	-7.78	-4.97
+OA-g7	-7.33	-6.07
+OA-g8	-8.36	-8.25
+>mue
+1.27875
+>kendall
+0.321428571428572
+>pearson
+0.512777213800272
+>angular
+0.379262527807048
+>intercept
+-4.96482926106428
+>Lin
+0.350585792172301
+#
+>File
+GDCC_MMPBSA_RESP_NoEntropy.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMPBSA
+>Predictions
+HG	SUB	REF
+OA-g1	-13.01	-4.97
+OA-g2	-12.38	-6.91
+OA-g3	-17.34	-8.1
+OA-g4	-18.49	-6.76
+OA-g5	-14.03	-4.73
+OA-g6	-16.56	-4.97
+OA-g7	-15.57	-6.07
+OA-g8	-17.89	-8.25
+>mue
+9.31375
+>kendall
+0.321428571428571
+>pearson
+0.514621426401567
+>angular
+0.847474680950707
+>intercept
+-10.2815231493678
+>Lin
+0.0311034127879777
+#
+>File
+GDCC_Nuno_DZ.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_DZ  
+>Predictions
+HG	SUB	REF
+OA-g1	0.4	-4.97
+OA-g2	-7.3	-6.91
+OA-g3	-11.4	-8.1
+OA-g4	-11.3	-6.76
+OA-g5	-10.6	-4.73
+OA-g6	-13.3	-4.97
+OA-g7	-15.6	-6.07
+OA-g8	-11.3	-8.25
+>mue
+5.0475
+>kendall
+0.0714285714285729
+>pearson
+0.237051659024381
+>angular
+0.819649338484954
+>intercept
+-4.84932494731296
+>Lin
+0.0780933536636807
+#
+>File
+GDCC_Nuno_TZ.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_TZ  
+>Predictions
+HG	SUB	REF
+OA-g1	4.2	-4.97
+OA-g2	-25.2	-6.91
+OA-g3	-8.0	-8.1
+OA-g4	-7.9	-6.76
+OA-g5	-6.3	-4.73
+OA-g6	-9.4	-4.97
+OA-g7	-11.6	-6.07
+OA-g8	-7.8	-8.25
+>mue
+5.085
+>kendall
+0.178571428571429
+>pearson
+0.32863674906414
+>angular
+1.89534305116497
+>intercept
+3.02595165964171
+>Lin
+0.0987461251267163
+#
+>File
+GDCC_submission.txt
+>Category
+Alchemical 
+>Name
+FSDAM/GAFF2/OPC3
+>Predictions
+HG	SUB	REF
+OA-g1	-8.1	-4.97
+OA-g2	-9.6	-6.91
+OA-g3	-9.6	-8.1
+OA-g4	-10.2	-6.76
+OA-g5	+1.5	-4.73
+OA-g6	-1.6	-4.97
+OA-g7	-1.0	-6.07
+OA-g8	-1.8	-8.25
+>mue
+3.985
+>kendall
+0.357142857142858
+>pearson
+0.402114155001253
+>angular
+1.37161924833157
+>intercept
+3.65292413066384
+>Lin
+0.20145978811469
+#
+>File
+GDCC_Nuno_QZ_RANKED.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_QZ-R 
+>Predictions
+HG	SUB	REF
+OA-g1	0.4	-4.97
+OA-g2	-7.3	-6.91
+OA-g3	-7.2	-8.1
+OA-g4	-7.2	-6.76
+OA-g5	-5.5	-4.73
+OA-g6	-8.9	-4.97
+OA-g7	-11.0	-6.07
+OA-g8	-7.2	-8.25
+>mue
+2.2225
+>kendall
+0.0714285714285725
+>pearson
+0.305688439800143
+>angular
+0.722214904577918
+>intercept
+-2.15504643045311
+>Lin
+0.216491475901765
+#
+>File
+GDCC-dserillon-1.txt.txt
+>Category
+Mixed
+>Name
+xtb-GNF/Machine Learning/CORINA MD
+>Predictions
+HG	SUB	REF
+OA-g1	-4.95	-4.97
+OA-g2	-7.79	-6.91
+OA-g3	-8.26	-8.1
+OA-g4	-7.33	-6.76
+OA-g5	-4.50	-4.73
+OA-g6	-4.92	-4.97
+OA-g7	-5.81	-6.07
+OA-g8	-6.12	-8.25
+>mue
+0.5375
+>kendall
+0.749999999999998
+>pearson
+0.798528639813647
+>angular
+0.816773504273504
+>intercept
+-1.02757211538462
+>Lin
+0.794183986395623
+#
+>File
+GDCC-ponder-2.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR_2
+>Predictions
+HG	SUB	REF
+OA-g1	-5.02	-4.97
+OA-g2	-5.76	-6.91
+OA-g3	-5.01	-8.1
+OA-g4	-3.18	-6.76
+OA-g5	-3.95	-4.73
+OA-g6	-4.20	-4.97
+OA-g7	-5.67	-6.07
+OA-g8	-4.01	-8.25
+>mue
+1.7575
+>kendall
+0.107142857143028
+>pearson
+0.043840652554618
+>angular
+0.0285168598524763
+>intercept
+-4.41906052423604
+>Lin
+0.0177913522249463
+#
+>File
+GDCC-ponder.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR
+>Predictions
+HG	SUB	REF
+OA-g1	-5.00	-4.97
+OA-g2	-6.01	-6.91
+OA-g3	-8.70	-8.1
+OA-g4	-7.25	-6.76
+OA-g5	-3.95	-4.73
+OA-g6	-4.20	-4.97
+OA-g7	-7.71	-6.07
+OA-g8	-8.01	-8.25
+>mue
+0.68125
+>kendall
+0.678571428571429
+>pearson
+0.885262639498256
+>angular
+1.15490355344807
+>intercept
+0.974113046628022
+>Lin
+0.854852076133939
+#
+>File
+GDCC_Nuno_QZ_NON_RANKED.txt
+>Category
+Quantum
+>Name
+B2PLYPD3/SMD_QZ-NR 
+>Predictions
+HG	SUB	REF
+OA-g1	4.2	-4.97
+OA-g2	-26.8	-6.91
+OA-g3	-7.2	-8.1
+OA-g4	-7.2	-6.76
+OA-g5	-5.5	-4.73
+OA-g6	-8.9	-4.97
+OA-g7	-11.0	-6.07
+OA-g8	-7.2	-8.25
+>mue
+5.135
+>kendall
+0.214285714285713
+>pearson
+0.310855030318911
+>angular
+1.91078328064629
+>intercept
+3.42391991570072
+>Lin
+0.0909233673262953
+#
+>File
+GDCC_MMGBSA_RESP_NoEntropy.txt
+>Category
+Alchemical
+>Name
+RESP/GAFF/MMGBSA
+>Predictions
+HG	SUB	REF
+OA-g1	-14.26	-4.97
+OA-g2	-12.90	-6.91
+OA-g3	-17.09	-8.1
+OA-g4	-18.81	-6.76
+OA-g5	-17.15	-4.73
+OA-g6	-18.91	-4.97
+OA-g7	-21.55	-6.07
+OA-g8	-20.91	-8.25
+>mue
+11.3525
+>kendall
+0.0357142857142925
+>pearson
+0.19331646217213
+>angular
+0.416293466807162
+>intercept
+-15.0561179531086
+>Lin
+0.0102681182949895
+#
+>File
+GDCC-ponder-3.txt
+>Category
+Alchemical
+>Name
+AMOEBA/DDM/BAR_3
+>Predictions
+HG	SUB	REF
+OA-g1	-4.98	-4.97
+OA-g2	-6.26	-6.91
+OA-g3	-8.70	-8.1
+OA-g4	-7.25	-6.76
+OA-g5	-7.62	-4.73
+OA-g6	-7.83	-4.97
+OA-g7	-9.76	-6.07
+OA-g8	-12.00	-8.25
+>mue
+1.8675
+>kendall
+0.321428571428571
+>pearson
+0.573165177578104
+>angular
+0.883246985130547
+>intercept
+-2.44579787934668
+>Lin
+0.347975875410101
+#
+>File
+ourdock.txt
+>Category
+Docking
+>Name
+autodock4_default
+>Predictions
+HG	SUB	REF
+OA-g1	-4.94263158368461	-4.97
+OA-g2	-6.19590564593481	-6.91
+OA-g3	-7.15087586495511	-8.1
+OA-g4	-6.71184298874325	-6.76
+OA-g5	-7.31087586495511	-4.73
+OA-g6	-6.34074040408671	-4.97
+OA-g7	-7.43	-6.07
+OA-g8	-9.23	-8.25
+>mue
+1.0037950232155
+>kendall
+0.250000000000001
+>pearson
+0.585683284774309
+>angular
+0.516193044446621
+>intercept
+-3.63886417703114
+>Lin
+0.525016696582874
+#

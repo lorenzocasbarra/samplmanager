@@ -1,0 +1,184 @@
+>File
+ourdock.txt
+>Category
+Docking
+>Name
+autodock4_default
+>Predictions
+HG	SUB	REF
+bCD-g1	-4.6512482162276	-4.52
+bCD-g2	-6.589547357327	-6.2
+>mue
+0.2603977867773
+>kendall
+1
+>pearson
+1
+>angular
+1.15374948874964
+>intercept
+0.563699472920746
+>Lin
+0.950669296502691
+#
+>File
+CD_MGLab_FSDAM_ranked.txt
+>Category
+Alchemical 
+>Name
+FSDAM/GAFF2/OPC3_ranked
+>Predictions
+HG	SUB	REF
+bCD-g1	-3.9	-4.52
+bCD-g2	-5.3	-6.2
+>mue
+0.76
+>kendall
+1
+>pearson
+1
+>angular
+0.83333333333333
+>intercept
+-0.13333333333335
+>Lin
+0.663207759981955
+#
+>File
+CD_MPIBPC_GAFF-1.txt
+>Category
+Alchemical
+>Name
+Noneq/Alchemy/GAFF
+>Predictions
+HG	SUB	REF
+bCD-g1	-5.19	-4.52
+bCD-g2	-5.83	-6.2
+>mue
+0.52
+>kendall
+0.999999999999999
+>pearson
+1
+>angular
+0.380952380952384
+>intercept
+-3.46809523809522
+>Lin
+0.647320891029505
+#
+>File
+CD_MPIBPC_consensus-1.txt
+>Category
+Alchemical
+>Name
+Noneq/Alchemy/consensus
+>Predictions
+HG	SUB	REF
+bCD-g1	-5.16	-4.52
+bCD-g2	-5.64	-6.2
+>mue
+0.600000000000001
+>kendall
+0.999999999999998
+>pearson
+1
+>angular
+0.285714285714268
+>intercept
+-3.86857142857152
+>Lin
+0.527196652719638
+#
+>File
+CD_MPIBPC_CHARMM-1.txt
+>Category
+Alchemical
+>Name
+Noneq/Alchemy/CGENFF
+>Predictions
+HG	SUB	REF
+bCD-g1	-5.12	-4.52
+bCD-g2	-5.45	-6.2
+>mue
+0.675
+>kendall
+0.999999999999995
+>pearson
+1
+>angular
+0.196428571428563
+>intercept
+-4.23214285714291
+>Lin
+0.375380865326005
+#
+>File
+CD_submission.txt
+>Category
+Alchemical
+>Name
+AM1-BCC/MD/GAFF/TIP4PEW/QMMM
+>Predictions
+HG	SUB	REF
+bCD-g1	-23.26	-4.52
+bCD-g2	-30.04	-6.2
+>mue
+21.29
+>kendall
+1
+>pearson
+1
+>angular
+4.03571428571427
+>intercept
+-5.0185714285715
+>Lin
+0.0122355905468506
+#
+>File
+CD_MGLab_FSDAM_JB.txt
+>Category
+Alchemical 
+>Name
+FSDAM/GAFF2/OPC3_JB
+>Predictions
+HG	SUB	REF
+bCD-g1	-4.0	-4.52
+bCD-g2	-4.2	-6.2
+>mue
+1.26
+>kendall
+0.999999999999987
+>pearson
+1
+>angular
+0.119047619047628
+>intercept
+-3.46190476190471
+>Lin
+0.0729419937478349
+#
+>File
+CD_REF.txt
+>Category
+Alchemical
+>Name
+Docking/GAFF/YANK_REF
+>Predictions
+HG	SUB	REF
+bCD-g1	-6.610	-4.52
+bCD-g2	-7.505	-6.2
+>mue
+1.6975
+>kendall
+0.999999999999999
+>pearson
+1
+>angular
+0.532738095238086
+>intercept
+-4.20202380952386
+>Lin
+0.198502255857472
+#

@@ -1,0 +1,2732 @@
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ttmwo-973-OA-nobufferModelD-3.txt
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-6.14	0.17	2.11	
+OA-G1	-5.80	0.53	2.16	
+OA-G2	-9.23	0.40	2.14	
+OA-G3	-3.58	0.38	2.13	
+OA-G4	-8.26	0.27	2.12	
+OA-G5	-4.58	0.11	2.10	
+OA-G6	-4.79	0.32	2.12	
+OA-G7	-5.26	0.06	2.10	
+>mue:	0.332913276995676
+>kendall:	0.761904761904755
+>pearson:	0.86844872666093
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/D
+>Category
+None
+>Ranked
+None
+>Software
+Sire/OpenMM6.3 (SOMD) software (revision 2017.1.0)
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/kuovg-973-OA-WGatMSU-1.txt
+>Software
+MOE 2016.08
+AMBER16.7
+Gaussian 16
+ORCA 4.0
+>Name
+BSSE-corrected RI-B3PW91-D3 (SMD)/CBS
+>Predictions
+OA-G0	-41.3616	0.00000		-55.3488	0.00000	
+OA-G1	-40.6674	0.00000		-59.2661	0.00000	
+OA-G2	6.5376	0.00000		-8.5773	0.00000	
+OA-G3	-47.9447	0.00000		-63.1775	0.00000	
+OA-G4	-48.1913	0.00000		-63.3914	0.00000	
+OA-G5	-38.3990	0.00000		-58.2459	0.00000	
+OA-G6	-43.1940	0.00000		-58.2216	0.00000	
+OA-G7	-47.3730	0.00000		-59.2756	0.00000	
+>mue:	12.8738769612513
+>kendall:	0.380952380952373
+>pearson:	-0.65977814967015
+>Participant name
+None
+>Participant organization
+None
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/8fcb6-973-oa-ponder-1.txt
+>Software
+Tinker 8.3
+Tinker-OpenMM
+Psi4
+Gaussian09
+>Category
+None
+>Ranked
+None
+>Name
+AMOEBA/BAR/Tinker
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.23		0.24	
+OA-G1	-3.79		0.24	
+OA-G2	-3.54		0.26	
+OA-G3	-5.91		0.31	
+OA-G4	-4.12		0.27	
+OA-G5	-5.35		0.24	
+OA-G6	-5.92		0.24	
+OA-G7	-4.75		0.25	
+>mue:	0.787417654424893
+>kendall:	-0.380952380952136
+>pearson:	-0.482911845635951
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/3cxbd-973-TEMOA-submission-3.txt
+>Predictions
+TEMOA-G0	-7.92
+TEMOA-G1	-7.66
+TEMOA-G2	-11.33
+TEMOA-G3	-7.73
+TEMOA-G4	-10.36
+TEMOA-G5	-5.83
+TEMOA-G6	-6.43
+TEMOA-G7	-9.64
+>mue:	1.0613802923552
+>kendall:	0.666666666666693
+>pearson:	1.08280510047883e-14
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_3
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/mdqkg-973-OA-bufferModelA-4.txt
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+>Category
+None
+>Ranked
+None
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-11.03	0.39	3.72	
+OA-G1	-10.05	0.21	3.71	
+OA-G2	-14.98	0.43	3.72	
+OA-G3	-8.52	0.05	3.70	
+OA-G4	-15.50	0.24	3.71	
+OA-G5	-8.05	0.17	3.70	
+OA-G6	-10.22	0.27	3.71	
+OA-G7	-9.59	0.34	3.72	
+>mue:	1.9112381458102
+>kendall:	0.761904761904755
+>pearson:	0.862611359056833
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/A
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/bhhbs-973-TEMOA-submission-6.txt
+>Name
+US/PMF/MT/MD_6
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-7.97
+TEMOA-G1	-7.92
+TEMOA-G2	-10.25
+TEMOA-G3	-8.04
+TEMOA-G4	-9.96
+TEMOA-G5	-6.31
+TEMOA-G6	-8.03
+TEMOA-G7	-9.12
+>mue:	1.01847158772349
+>kendall:	0.380952380952172
+>pearson:	8.06725654331796e-15
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/mknyd-973-OA-submission-2.txt
+>Ranked
+None
+>Category
+None
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-5.66
+OA-G1	-5.13
+OA-G2	-8.61
+OA-G3	-4.12
+OA-G4	-7.48
+OA-G5	-4.12
+OA-G6	-4.49
+OA-G7	-5.26
+>mue:	0.213493998744695
+>kendall:	0.904761904761897
+>pearson:	1.51406578333943e-14
+>Name
+US/PMF/MT/MD_2
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/gemch-973-OA-FSDAM-1.txt
+>Participant name
+None
+>Predictions
+OA-G0	-7.06		0.44	
+OA-G1	-6.19		0.51	
+OA-G2	-11.39		0.47	
+OA-G3	-5.77		0.45	
+OA-G4	-11.19		0.51	
+OA-G5	-5.73		0.36	
+OA-G6	-5.46		0.44	
+OA-G7	-6.38		0.49	
+>mue:	0.705955690890016
+>kendall:	0.95238095238093
+>pearson:	0.914654885739155
+>Participant organization
+None
+>Name
+FS-DAM/GAFF2/TIP3P
+>Ranked
+None
+>Category
+None
+>Software
+Orac 6.0 
+PrimaDORAC 1.0
+MOPAC7 
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/w2q3q-973-OA-mm-1.txt
+>Software
+Amber 16
+>Name
+FEP-MM
+>Predictions
+OA-G0	-4.58	0.11	
+OA-G1	-3.84	0.03	
+OA-G2	-6.38	0.19	
+OA-G3	-3.14	0.03	
+OA-G4	-7.62	0.50	
+OA-G5	-2.46	0.08	
+OA-G6	-4.02	0.06	
+OA-G7	-4.89	0.10	
+>mue:	0.522854245942404
+>kendall:	1.04761904761904
+>pearson:	0.858205874480642
+>Participant name
+None
+>Participant organization
+None
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/vwkb0-973-TEMOA-sqm-3.txt
+>Software
+Amber 16
+Turbomole 7.0
+COSMO-RS
+>Predictions
+TEMOA-G0	-8.45
+TEMOA-G1	-6.83
+TEMOA-G2	-10.33
+TEMOA-G3	-4.61
+TEMOA-G4	-11.48
+TEMOA-G5	-8.05
+TEMOA-G6	-6.66
+TEMOA-G7	-9.91
+>mue:	1.14268324569847
+>kendall:	0.476190476190499
+>pearson:	8.1389654891794e-15
+>Participant organization
+None
+>Participant name
+None
+>Name
+SQM-opt
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/m0qdw-973-OA-submission-15.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-9.59
+OA-G1	-8.94
+OA-G2	-11.45
+OA-G3	-9.09
+OA-G4	-11.44
+OA-G5	-9.10
+OA-G6	-9.00
+OA-G7	-10.00
+>mue:	1.4143433768007
+>kendall:	1.04761904761905
+>pearson:	1.00145887072338e-14
+>Name
+US/PMF/MT/MD_15
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/5r5n7-973-OA-WGatMSU-2.txt
+>Software
+MOE 2016.08
+AMBER16.7
+Gaussian 16
+ORCA 4.0
+>Name
+BSSE-corrected RI-B3PW91 (SMD)/CBS
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-16.5671	0.00000		-30.5542	0.00000	
+OA-G1	-17.1499	0.00000		-35.7486	0.00000	
+OA-G2	44.5279	0.00000		29.4131	0.00000	
+OA-G3	-17.6235	0.00000		-32.8563	0.00000	
+OA-G4	-13.4884	0.00000		-28.6886	0.00000	
+OA-G5	-16.4165	0.00000		-36.2633	0.00000	
+OA-G6	-23.3116	0.00000		-38.3392	0.00000	
+OA-G7	-23.7767	0.00000		-35.6793	0.00000	
+>mue:	7.95894260735605
+>kendall:	-0.285714285714294
+>pearson:	-0.77763997124407
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/m8t0b-973-TEMOA-submission-4.txt
+>Name
+US/PMF/MT/MD_4
+>Participant name
+None
+>Predictions
+TEMOA-G0	-6.64
+TEMOA-G1	-6.37
+TEMOA-G2	-10.08
+TEMOA-G3	-6.44
+TEMOA-G4	-9.09
+TEMOA-G5	-4.53
+TEMOA-G6	-5.14
+TEMOA-G7	-8.36
+>mue:	0.703587903179127
+>kendall:	0.666666666666693
+>pearson:	1.09714688973976e-14
+>Participant organization
+None
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/vq30p-973-TEMOA-NHLBI-1.txt
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-5.193	0.61	
+TEMOA-G1	-5.087	0.82	
+TEMOA-G2	-6.754	0.52	
+TEMOA-G3	-3.296	0.51	
+TEMOA-G4	-9.791	0.48	
+TEMOA-G5	-3.968	0.55	
+TEMOA-G6	-5.358	0.56	
+TEMOA-G7	-5.908	0.45	
+>mue:	0.468488977324974
+>kendall:	0.476190476190499
+>pearson:	0.703645689222657
+>Name
+Umbrella Sampling/TIP3P
+>Category
+None
+>Ranked
+None
+>Software
+CHARMM
+CGenFF
+GalaxyDock-HG
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/8pxph-973-OA-submission-27.txt
+>Predictions
+OA-G0	-6.64
+OA-G1	-7.24
+OA-G2	-10.02
+OA-G3	-6.88
+OA-G4	-9.00
+OA-G5	-7.90
+OA-G6	-7.17
+OA-G7	-7.21
+>mue:	0.72411152455958
+>kendall:	0.190476190476215
+>pearson:	9.33944789561281e-15
+>Participant organization
+None
+>Participant name
+None
+>Name
+US/PMF/MT/MD_27
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/wfs4v-973-TEMOA-bufferModelC-5.txt
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-9.33	0.21	1.71	
+TEMOA-G1	-10.56	0.17	1.71	
+TEMOA-G2	-12.44	0.31	1.72	
+TEMOA-G3	-7.30	0.31	1.72	
+TEMOA-G4	-14.29	0.14	1.70	
+TEMOA-G5	-5.93	0.54	1.77	
+TEMOA-G6	-8.19	0.28	1.72	
+TEMOA-G7	-5.23	0.30	1.72	
+>mue:	1.37343604237693
+>kendall:	1.14285714285712
+>pearson:	0.968862164994965
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/C
+>Ranked
+None
+>Category
+None
+>Software
+Sire/OpenMM6.3  software (revision 2017.1.0)
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/jomge-973-TEMOA-submission-26.txt
+>Name
+US/PMF/MT/MD_26
+>Predictions
+TEMOA-G0	-6.10
+TEMOA-G1	-6.50
+TEMOA-G2	-10.42
+TEMOA-G3	-7.33
+TEMOA-G4	-9.77
+TEMOA-G5	-6.72
+TEMOA-G6	-7.19
+TEMOA-G7	-8.82
+>mue:	0.90122919532159
+>kendall:	0.0952380952381238
+>pearson:	7.06333129331339e-15
+>Participant name
+None
+>Participant organization
+None
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/8brzp-973-OA-WGatMSU-1.txt
+>Software
+MOE 2016.08
+AMBER 16.7
+Gaussian 16
+>Name
+EKEN-DIAZ/MD/MMPBSA
+>Predictions
+OA-G0	-12.5818	0.1847	
+OA-G1	-11.6401	0.1409	
+OA-G2	-18.1635	0.1888	
+OA-G3	-10.0210	0.1948	
+OA-G4	-16.9746	0.2212	
+OA-G5	-9.1263	0.1965	
+OA-G6	-11.2557	0.2257	
+OA-G7	-11.4328	0.1438	
+>mue:	2.50068788561268
+>kendall:	0.857142857142851
+>pearson:	0.917907641694275
+>Participant name
+None
+>Participant organization
+None
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/obyj4-973-TEMOA-submission-14.txt
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_14
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-5.73
+TEMOA-G1	-7.35
+TEMOA-G2	-11.61
+TEMOA-G3	-8.79
+TEMOA-G4	-10.92
+TEMOA-G5	-7.86
+TEMOA-G6	-9.24
+TEMOA-G7	-10.08
+>mue:	1.30422630321582
+>kendall:	3.05311331771918e-14
+>pearson:	5.95184260614682e-15
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/70hpk-973-TEMOA-submission-18.txt
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.55
+TEMOA-G1	-7.38
+TEMOA-G2	-10.55
+TEMOA-G3	-7.48
+TEMOA-G4	-9.90
+TEMOA-G5	-7.77
+TEMOA-G6	-6.59
+TEMOA-G7	-8.95
+>mue:	1.02958501955885
+>kendall:	0.380952380952407
+>pearson:	6.81234996987385e-15
+>Name
+US/PMF/MT/MD_18
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/zxx8g-973-TEMOA-submission-20.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Predictions
+TEMOA-G0	-4.83
+TEMOA-G1	-5.50
+TEMOA-G2	-10.59
+TEMOA-G3	-6.91
+TEMOA-G4	-8.60
+TEMOA-G5	-6.27
+TEMOA-G6	-6.81
+TEMOA-G7	-8.70
+>mue:	0.845202453557726
+>kendall:	2.91195639030255e-14
+>pearson:	5.09133523988894e-15
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_20
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/s3kiu-973-TEMOA-bufferModelA-4.txt
+>Software
+Sire/OpenMM6.3 (SOMD) software (revision 2017.1.0)
+>Ranked
+None
+>Category
+None
+>Name
+Alchemical Free Energy Calculations
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-11.60	0.24	3.41	
+TEMOA-G1	-12.75	0.17	3.40	
+TEMOA-G2	-14.69	0.29	3.41	
+TEMOA-G3	-9.45	0.32	3.42	
+TEMOA-G4	-16.55	0.13	3.40	
+TEMOA-G5	-8.08	0.54	3.44	
+TEMOA-G6	-10.54	0.34	3.42	
+TEMOA-G7	-7.57	0.26	3.41	
+>mue:	2.10629302626676
+>kendall:	1.14285714285712
+>pearson:	0.968392181082164
+>Participant name
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/finzb-973-OA-submission-19.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_19
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-5.87
+OA-G1	-4.46
+OA-G2	-8.45
+OA-G3	-4.45
+OA-G4	-7.51
+OA-G5	-4.49
+OA-G6	-4.21
+OA-G7	-5.43
+>mue:	0.175966083379724
+>kendall:	0.761904761905048
+>pearson:	1.5161495506867e-14
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/8pqor-973-TEMOA-nobufferModelC-2.txt
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+>Category
+None
+>Ranked
+None
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-8.28	0.16	1.71	
+TEMOA-G1	-9.68	0.35	1.74	
+TEMOA-G2	-11.94	0.11	1.70	
+TEMOA-G3	-6.21	0.66	1.83	
+TEMOA-G4	-13.89	0.13	1.70	
+TEMOA-G5	-4.27	0.42	1.75	
+TEMOA-G6	-7.64	0.30	1.73	
+TEMOA-G7	-3.22	0.33	1.73	
+>mue:	1.17559360005914
+>kendall:	1.14285714285712
+>pearson:	0.97263920987289
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/C
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/4mas4-973-TEMOA-submission-22.txt
+>Participant name
+None
+>Predictions
+TEMOA-G0	-5.43
+TEMOA-G1	-5.80
+TEMOA-G2	-8.61
+TEMOA-G3	-6.58
+TEMOA-G4	-7.51
+TEMOA-G5	-6.23
+TEMOA-G6	-6.52
+TEMOA-G7	-7.56
+>mue:	0.58641921864823
+>kendall:	3.20537247538206e-14
+>pearson:	2.68908551406188e-15
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_22
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/yedi3-973-OA-XiaodongRen-1.txt
+>Software
+Autodock 4.2.6
+Gromacs 2016.4
+AmberTools17
+Acpype
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-8.4			0.1	
+OA-G1	-7.9			0.1	
+OA-G2	-13.7			0.1	
+OA-G3	-5.9			0.1	
+OA-G4	-6.6			0.2	
+OA-G5	-8.2			0.1	
+OA-G6	-3.8			0.2	
+OA-G7	-6.6			0.1	
+>mue:	0.980968908783555
+>kendall:	0.238095238095244
+>pearson:	0.63716635928757
+>Name
+DDM/GAFF/AM1-BCC/TIP3P
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/s78rs-973-OA-submission-10.txt
+>Ranked
+None
+>Category
+None
+>Name
+US/PMF/MT/MD_10
+>Participant organization
+None
+>Predictions
+OA-G0	-7.58
+OA-G1	-6.92
+OA-G2	-10.14
+OA-G3	-8.39
+OA-G4	-8.13
+OA-G5	-7.78
+OA-G6	-7.38
+OA-G7	-8.83
+>mue:	0.847803227464959
+>kendall:	0.761904761904768
+>pearson:	8.24338595614313e-15
+>Participant name
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ourdock.txt
+>Software
+autodock4_default
+>Ranked
+None
+>Category
+None
+>Predictions
+OA-G0	-5.63
+OA-G1	-4.26
+OA-G2	-8.16
+OA-G3	-4.85
+OA-G4	-6.99
+OA-G5	-5.41
+OA-G6	-5.24
+OA-G7	-7.40
+TEMOA-G0	-5.79
+TEMOA-G1	-4.46
+TEMOA-G2	-8.44
+TEMOA-G3	-5.03
+TEMOA-G4	-7.17
+TEMOA-G5	-5.77
+TEMOA-G6	-5.26
+TEMOA-G7	-7.52
+>mue:	0.295056933065468
+>kendall:	0.380952380952363
+>pearson:	7.81299734777196e-15
+>Participant organization
+University of Florence, Italy
+>Participant name
+Lorenzo Casbarra
+>Name
+autodock4_default
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/aai8i-973-OA-submission-24.txt
+>Name
+US/PMF/MT/MD_24
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-6.78
+OA-G1	-6.88
+OA-G2	-10.12
+OA-G3	-6.60
+OA-G4	-8.44
+OA-G5	-7.71
+OA-G6	-5.97
+OA-G7	-7.26
+>mue:	0.622643055851424
+>kendall:	0.571428571428579
+>pearson:	1.08939387785499e-14
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/tydzi-973-TEMOA-submission-12.txt
+>Name
+US/PMF/MT/MD_12
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-7.38
+TEMOA-G1	-7.17
+TEMOA-G2	-8.80
+TEMOA-G3	-6.99
+TEMOA-G4	-8.35
+TEMOA-G5	-7.22
+TEMOA-G6	-6.77
+TEMOA-G7	-7.89
+>mue:	0.737036930892883
+>kendall:	0.476190476190506
+>pearson:	3.37032050829503e-15
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/pbo45-973-TEMOA-FSDAM-1.txt
+>Category
+None
+>Ranked
+None
+>Name
+FS-DAM/GAFF2/TIP3P
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-4.90		0.64	
+TEMOA-G1	-8.20		0.32	
+TEMOA-G2	-1.47		0.86	
+TEMOA-G3	-5.56		0.34	
+TEMOA-G4	-12.73		0.43	
+TEMOA-G5	-4.46		0.46	
+TEMOA-G6	-6.76		0.51	
+TEMOA-G7	-1.57		1.79	
+>mue:	1.02874696232844
+>kendall:	0.38095238095236
+>pearson:	0.581917280335725
+>Software
+Orac 6.0 
+PrimaDORAC 1.0
+MOPAC7 
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/vgqcz-973-OA-submission-25.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Name
+US/PMF/MT/MD_25
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-6.64
+OA-G1	-6.73
+OA-G2	-9.56
+OA-G3	-6.48
+OA-G4	-8.09
+OA-G5	-7.45
+OA-G6	-5.93
+OA-G7	-7.06
+>mue:	0.546260011349907
+>kendall:	0.57142857142858
+>pearson:	9.49364671399239e-15
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/c8jfq-973-OA-sqm-3.txt
+>Software
+Amber 16
+Turbomole 7.0
+COSMO-RS
+>Participant organization
+None
+>Predictions
+OA-G0	-5.83
+OA-G1	-6.20
+OA-G2	-5.13
+OA-G3	-3.99
+OA-G4	-10.55
+OA-G5	-3.92
+OA-G6	-3.99
+OA-G7	-4.88
+>mue:	0.678257187577102
+>kendall:	0.523809523809507
+>pearson:	9.1310711018386e-15
+>Participant name
+None
+>Name
+SQM-opt
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ikwy8-973-TEMOA-submission-13.txt
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-5.90
+TEMOA-G1	-7.68
+TEMOA-G2	-12.31
+TEMOA-G3	-9.24
+TEMOA-G4	-11.56
+TEMOA-G5	-8.23
+TEMOA-G6	-9.73
+TEMOA-G7	-10.65
+>mue:	1.47100305914026
+>kendall:	3.05152728482686e-14
+>pearson:	6.453805232073e-15
+>Name
+US/PMF/MT/MD_13
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/xcuey-973-OA-submission-18.txt
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-8.79
+OA-G1	-7.91
+OA-G2	-10.42
+OA-G3	-7.90
+OA-G4	-9.83
+OA-G5	-7.93
+OA-G6	-7.75
+OA-G7	-8.52
+>mue:	0.995553395102442
+>kendall:	0.761904761905093
+>pearson:	9.46447396667633e-15
+>Name
+US/PMF/MT/MD_18
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/sdm0h-973-TEMOA-qm-2.txt
+>Software
+Amber 16
+>Name
+FEP-QM/MM
+>Participant name
+None
+>Predictions
+TEMOA-G0	-6.10	0.35	
+TEMOA-G1	-4.55	0.28	
+TEMOA-G2	-7.79	0.44	
+TEMOA-G3	-4.33	0.20	
+TEMOA-G4	-10.22	0.60	
+TEMOA-G5	-1.94	0.22	
+TEMOA-G6	-4.39	0.22	
+TEMOA-G7	-2.96	0.25	
+>mue:	0.527577008596849
+>kendall:	1.14285714285717
+>pearson:	0.963947402962759
+>Participant organization
+None
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/hs2xm-973-TEMOA-submission-10.txt
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.81
+TEMOA-G1	-8.37
+TEMOA-G2	-11.68
+TEMOA-G3	-8.01
+TEMOA-G4	-10.78
+TEMOA-G5	-8.47
+TEMOA-G6	-7.56
+TEMOA-G7	-9.83
+>mue:	1.29614392044248
+>kendall:	0.4761904761905
+>pearson:	7.24260365221486e-15
+>Name
+US/PMF/MT/MD_10
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/uui3y-973-OA-submission-20.txt
+>Ranked
+None
+>Category
+None
+>Predictions
+OA-G0	-6.32
+OA-G1	-5.19
+OA-G2	-10.48
+OA-G3	-5.70
+OA-G4	-7.14
+OA-G5	-6.32
+OA-G6	-4.85
+OA-G7	-6.94
+>mue:	0.373082598093237
+>kendall:	0.90476190476191
+>pearson:	1.57866258915047e-14
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_20
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/rkitq-973-OA-submission-9.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Ranked
+None
+>Category
+None
+>Name
+US/PMF/MT/MD_9
+>Participant name
+None
+>Predictions
+OA-G0	-5.20
+OA-G1	-5.56
+OA-G2	-5.63
+OA-G3	-5.79
+OA-G4	-6.70
+OA-G5	-5.05
+OA-G6	-6.09
+OA-G7	-6.07
+>mue:	0.407923476279559
+>kendall:	0.476190476190523
+>pearson:	1.91289896684133e-15
+>Participant organization
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/wfrgr-973-TEMOA-submission-11.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Ranked
+None
+>Category
+None
+>Name
+US/PMF/MT/MD_11
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.07
+TEMOA-G1	-7.77
+TEMOA-G2	-10.04
+TEMOA-G3	-7.53
+TEMOA-G4	-9.42
+TEMOA-G5	-7.84
+TEMOA-G6	-7.22
+TEMOA-G7	-8.77
+>mue:	0.988047316680735
+>kendall:	0.476190476190502
+>pearson:	4.87620839495015e-15
+>Participant organization
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/kv2ub-973-TEMOA-submission-27.txt
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_27
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-7.30
+TEMOA-G1	-7.60
+TEMOA-G2	-10.48
+TEMOA-G3	-8.21
+TEMOA-G4	-10.00
+TEMOA-G5	-7.76
+TEMOA-G6	-8.11
+TEMOA-G7	-9.30
+>mue:	1.09253575456367
+>kendall:	0.0952380952381233
+>pearson:	5.12718970456776e-15
+>Participant name
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/nb8jk-973-OA-submission-5.txt
+>Ranked
+None
+>Category
+None
+>Participant name
+None
+>Predictions
+OA-G0	-8.35
+OA-G1	-5.88
+OA-G2	-10.40
+OA-G3	-7.50
+OA-G4	-10.43
+OA-G5	-8.06
+OA-G6	-7.50
+OA-G7	-7.95
+>mue:	0.88883438417964
+>kendall:	0.714285714285749
+>pearson:	1.30985652493996e-14
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_5
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/iaz7f-973-OA-submission-17.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Category
+None
+>Ranked
+None
+>Predictions
+OA-G0	-7.77
+OA-G1	-7.45
+OA-G2	-8.68
+OA-G3	-7.52
+OA-G4	-8.68
+OA-G5	-7.53
+OA-G6	-7.48
+OA-G7	-7.97
+>mue:	0.773029753631773
+>kendall:	1.00000000000021
+>pearson:	4.84267667972679e-15
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_17
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/t5gev-973-TEMOA-submission-1.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Name
+US/PMF/MT/MD_1
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-7.35
+TEMOA-G1	-9.52
+TEMOA-G2	-11.07
+TEMOA-G3	-6.12
+TEMOA-G4	-12.45
+TEMOA-G5	-4.62
+TEMOA-G6	-7.93
+TEMOA-G7	-4.2
+>mue:	0.976422039898731
+>kendall:	1.04761904761902
+>pearson:	2.76796535100167e-14
+>Participant name
+None
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/iv75a-973-OA-nobufferModelC-2.txt
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/C
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-8.40	0.22	2.11	
+OA-G1	-7.94	0.70	2.21	
+OA-G2	-12.48	0.53	2.17	
+OA-G3	-5.01	0.50	2.16	
+OA-G4	-11.20	0.36	2.13	
+OA-G5	-6.33	0.15	2.11	
+OA-G6	-6.60	0.42	2.14	
+OA-G7	-7.22	0.08	2.10	
+>mue:	0.955853676040428
+>kendall:	0.761904761904755
+>pearson:	0.868341547140091
+>Ranked
+None
+>Category
+None
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/iyo2o-973-OA-submission-22.txt
+>Name
+US/PMF/MT/MD_22
+>Participant organization
+None
+>Predictions
+OA-G0	-6.26
+OA-G1	-5.63
+OA-G2	-8.55
+OA-G3	-5.92
+OA-G4	-6.71
+OA-G5	-6.25
+OA-G6	-5.45
+OA-G7	-6.60
+>mue:	0.284047201183184
+>kendall:	0.952380952380718
+>pearson:	8.66013953157036e-15
+>Participant name
+None
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ahtcq-973-OA-qm-2.txt
+>Software
+Amber 16
+>Name
+FEP-QM/MM
+>Participant organization
+None
+>Predictions
+OA-G0	-4.49	0.19	
+OA-G1	-2.54	0.11	
+OA-G2	-6.45	0.18	
+OA-G3	-3.56	0.11	
+OA-G4	-6.98	0.52	
+OA-G5	-2.33	0.17	
+OA-G6	-3.84	0.17	
+OA-G7	-3.87	0.22	
+>mue:	0.614173733564046
+>kendall:	1.04761904761901
+>pearson:	0.902036497643605
+>Participant name
+None
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/btcyu-973-TEMOA-WGatMSU-2.txt
+>Ranked
+None
+>Category
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-12.8040	0.00000		-26.9236	0.00000	
+TEMOA-G1	-10.1834	0.00000		-28.1590	0.00000	
+TEMOA-G2	-7.2242	0.00000		-22.7645	0.00000	
+TEMOA-G3	-15.2861	0.00000		-28.9551	0.00000	
+TEMOA-G4	-12.3906	0.00000		-26.8052	0.00000	
+TEMOA-G5	-10.6611	0.00000		-27.5235	0.00000	
+TEMOA-G6	-16.9450	0.00000		-31.8050	0.00000	
+TEMOA-G7	-10.2864	0.00000		-25.0109	0.00000	
+>mue:	2.4743827448098
+>kendall:	-0.190476190476217
+>pearson:	-0.0648479465716753
+>Participant name
+None
+>Name
+BSSE-corrected RI-B3PW91 (SMD)/CBS
+>Software
+MOE 2016.08
+AMBER16.7
+Gaussian 16
+ORCA 4.0
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/4ysuf-973-OA-submission-1.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Ranked
+None
+>Category
+None
+>Predictions
+OA-G0	-8.74
+OA-G1	-8.02
+OA-G2	-12.81
+OA-G3	-6.63
+OA-G4	-11.25
+OA-G5	-6.63
+OA-G6	-7.13
+OA-G7	-8.2
+>mue:	1.06312555114624
+>kendall:	0.904761904761898
+>pearson:	2.08293442631104e-14
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_1
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/NB001-973-TEMOA-dft-4.txt
+>Category
+None
+>Ranked
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-0.54
+TEMOA-G1	-4.23
+TEMOA-G2	-3.76
+TEMOA-G3	-0.73
+TEMOA-G4	-10.33
+TEMOA-G5	-0.57
+TEMOA-G6	-0.96
+TEMOA-G7	-1.99
+>mue:	1.31190641339236
+>kendall:	0.380952380952438
+>pearson:	2.48112956580656e-14
+>Participant name
+None
+>Name
+DFT-opt
+>Software
+Amber 16
+Turbomole 7.0
+COSMO-RS
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/7fk2x-973-OA-submission-11.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_11
+>Predictions
+OA-G0	-7.23
+OA-G1	-6.78
+OA-G2	-8.98
+OA-G3	-7.79
+OA-G4	-7.61
+OA-G5	-7.37
+OA-G6	-7.09
+OA-G7	-8.09
+>mue:	0.685579134746675
+>kendall:	0.761904761904767
+>pearson:	5.63867603562314e-15
+>Participant organization
+None
+>Participant name
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/n6f0q-973-TEMOA-mm-1.txt
+>Software
+Amber 16
+>Name
+FEP-MM
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-4.58	0.11	
+TEMOA-G1	-3.84	0.03	
+TEMOA-G2	-6.38	0.19	
+TEMOA-G3	-3.14	0.03	
+TEMOA-G4	-7.62	0.50	
+TEMOA-G5	-2.46	0.08	
+TEMOA-G6	-4.02	0.06	
+TEMOA-G7	-4.89	0.10	
+>mue:	0.535675683132994
+>kendall:	0.666666666666691
+>pearson:	0.766811454567159
+>Participant name
+None
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/e032m-973-OA-submission-8.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Ranked
+None
+>Category
+None
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.90
+OA-G1	-10.16
+OA-G2	-10.61
+OA-G3	-11.59
+OA-G4	-17.31
+OA-G5	-6.97
+OA-G6	-13.47
+OA-G7	-13.32
+>mue:	2.21399631605385
+>kendall:	0.476190476190471
+>pearson:	1.25692881807674e-14
+>Name
+US/PMF/MT/MD_8
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/jgdj6-973-temoa-ponder-1.txt
+>Ranked
+None
+>Category
+None
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-5.48		0.25	
+TEMOA-G1	-4.82		0.23	
+TEMOA-G2	-2.46		0.26	
+TEMOA-G3	-6.69		0.33	
+TEMOA-G4	-4.89		0.27	
+TEMOA-G5	-6.07		0.24	
+TEMOA-G6	-3.97		0.24	
+TEMOA-G7	-4.13		0.25	
+>mue:	0.748670696968968
+>kendall:	-0.095238095238129
+>pearson:	-0.262168843901093
+>Name
+AMOEBA/BAR/Tinker
+>Software
+Tinker 8.3
+Tinker-OpenMM
+Psi4
+Gaussian09
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/gt5n0-973-OA-submission-4.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_4
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-8.75
+OA-G1	-7.48
+OA-G2	-9.72
+OA-G3	-6.69
+OA-G4	-9.19
+OA-G5	-6.68
+OA-G6	-6.04
+OA-G7	-6.39
+>mue:	0.700198632532226
+>kendall:	0.666666666666422
+>pearson:	1.05647034227258e-14
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/45sgk-973-TEMOA-submission-21.txt
+>Predictions
+TEMOA-G0	-5.60
+TEMOA-G1	-6.25
+TEMOA-G2	-11.20
+TEMOA-G3	-7.63
+TEMOA-G4	-9.26
+TEMOA-G5	-7.00
+TEMOA-G6	-7.52
+TEMOA-G7	-9.36
+>mue:	1.01363208315444
+>kendall:	2.95742266654911e-14
+>pearson:	4.94791733714837e-15
+>Participant organization
+None
+>Participant name
+None
+>Name
+US/PMF/MT/MD_21
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/gkdce-973-OA-submission-13.txt
+>Ranked
+None
+>Category
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.10
+OA-G1	-7.07
+OA-G2	-11.91
+OA-G3	-7.73
+OA-G4	-9.81
+OA-G5	-7.98
+OA-G6	-7.48
+OA-G7	-8.60
+>mue:	0.948541643787978
+>kendall:	0.761904761904741
+>pearson:	1.52031708580381e-14
+>Participant name
+None
+>Name
+US/PMF/MT/MD_13
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/7uted-973-OA-submission-23.txt
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_23
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-3.70
+OA-G1	-3.82
+OA-G2	-7.70
+OA-G3	-3.48
+OA-G4	-5.69
+OA-G5	-4.81
+OA-G6	-2.72
+OA-G7	-4.28
+>mue:	0.542744760453751
+>kendall:	0.571428571428579
+>pearson:	1.30527223485818e-14
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/2kb3u-973-TEMOA-submission-19.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Category
+None
+>Ranked
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-5.17
+TEMOA-G1	-4.27
+TEMOA-G2	-6.71
+TEMOA-G3	-4.35
+TEMOA-G4	-6.21
+TEMOA-G5	-4.57
+TEMOA-G6	-3.66
+TEMOA-G7	-5.48
+>mue:	0.446675217579843
+>kendall:	0.380952380952408
+>pearson:	5.09133523617371e-15
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_19
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/e7w4x-973-TEMOA-submission-2.txt
+>Ranked
+None
+>Category
+None
+>Name
+US/PMF/MT/MD_2
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-4.65
+TEMOA-G1	-6.22
+TEMOA-G2	-7.35
+TEMOA-G3	-3.75
+TEMOA-G4	-8.35
+TEMOA-G5	-2.66
+TEMOA-G6	-5.07
+TEMOA-G7	-2.36
+>mue:	0.425185621229129
+>kendall:	1.04761904761902
+>pearson:	2.00785051512723e-14
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/jgbg0-973-TEMOA-nobufferModelD-3.txt
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/D
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-6.35	0.15	1.71	
+TEMOA-G1	-7.62	0.32	1.73	
+TEMOA-G2	-9.67	0.10	1.70	
+TEMOA-G3	-4.47	0.60	1.80	
+TEMOA-G4	-11.44	0.12	1.70	
+TEMOA-G5	-2.70	0.38	1.74	
+TEMOA-G6	-5.76	0.27	1.72	
+TEMOA-G7	-1.75	0.30	1.73	
+>mue:	0.72361073789711
+>kendall:	1.14285714285712
+>pearson:	0.972788129846622
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/8jxan-973-OA-bufferModelD-6.txt
+>Software
+Sire/OpenMM6.3  software (revision 2017.1.0)
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/D
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-6.45	0.30	2.65	
+OA-G1	-6.08	0.16	2.11	
+OA-G2	-9.49	0.34	2.13	
+OA-G3	-4.62	0.04	2.10	
+OA-G4	-9.92	0.17	2.11	
+OA-G5	-4.31	0.12	2.10	
+OA-G6	-5.91	0.18	2.11	
+OA-G7	-5.43	0.35	2.13	
+>mue:	0.462089344715933
+>kendall:	0.666666666666661
+>pearson:	0.847918223270934
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/e5rqf-973-TEMOA-bufferModelD-6.txt
+>Software
+Sire/OpenMM6.3  software (revision 2017.1.0)
+>Ranked
+None
+>Category
+None
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-7.30	0.19	1.71	
+TEMOA-G1	-8.41	0.15	1.71	
+TEMOA-G2	-10.13	0.28	1.72	
+TEMOA-G3	-5.45	0.28	1.72	
+TEMOA-G4	-11.81	0.12	1.70	
+TEMOA-G5	-4.21	0.49	1.77	
+TEMOA-G6	-6.27	0.25	1.72	
+TEMOA-G7	-3.57	0.27	1.72	
+>mue:	0.747595102645811
+>kendall:	1.14285714285712
+>pearson:	0.968847821471303
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/D
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ibhca-973-OA-bufferModelC-5.txt
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/C
+>Participant organization
+None
+>Predictions
+OA-G0	-8.80	0.39	2.14	
+OA-G1	-8.31	0.22	2.11	
+OA-G2	-12.82	0.45	2.15	
+OA-G3	-6.38	0.05	2.10	
+OA-G4	-13.39	0.22	2.11	
+OA-G5	-5.97	0.16	2.11	
+OA-G6	-8.08	0.24	2.11	
+OA-G7	-7.46	0.46	2.15	
+>mue:	1.23006669026521
+>kendall:	0.666666666666661
+>pearson:	0.848367960581496
+>Participant name
+None
+>Ranked
+None
+>Category
+None
+>Software
+Sire/OpenMM6.3  software (revision 2017.1.0)
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/qa7zq-973-TEMOA-nobufferModelA-1.txt
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/A
+>Participant name
+None
+>Predictions
+TEMOA-G0	-10.56	0.11	3.40	
+TEMOA-G1	-11.90	0.33	3.42	
+TEMOA-G2	-14.30	0.14	3.40	
+TEMOA-G3	-8.46	0.45	3.43	
+TEMOA-G4	-16.11	0.19	3.41	
+TEMOA-G5	-6.54	0.44	3.43	
+TEMOA-G6	-9.90	0.28	3.41	
+TEMOA-G7	-5.42	0.38	3.42	
+>mue:	1.83922325656784
+>kendall:	1.14285714285712
+>pearson:	0.972027049503587
+>Participant organization
+None
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/4ndha-973-OA-submission-7.txt
+>Name
+US/PMF/MT/MD_7
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.16
+OA-G1	-5.94
+OA-G2	-8.17
+OA-G3	-6.74
+OA-G4	-8.18
+OA-G5	-7.02
+OA-G6	-6.74
+OA-G7	-6.96
+>mue:	0.516334738808072
+>kendall:	0.714285714285964
+>pearson:	6.42217277006292e-15
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/5rmun-973-TEMOA-submission-24.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Predictions
+TEMOA-G0	-8.94
+TEMOA-G1	-7.53
+TEMOA-G2	-10.74
+TEMOA-G3	-7.53
+TEMOA-G4	-9.25
+TEMOA-G5	-7.73
+TEMOA-G6	-6.95
+TEMOA-G7	-9.14
+>mue:	1.06269777571048
+>kendall:	0.428571428571451
+>pearson:	5.19889865596868e-15
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_24
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ib70e-973-TEMOA-submission-15.txt
+>Category
+None
+>Ranked
+None
+>Name
+US/PMF/MT/MD_15
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-10.04
+TEMOA-G1	-8.81
+TEMOA-G2	-12.46
+TEMOA-G3	-9.37
+TEMOA-G4	-12.65
+TEMOA-G5	-9.70
+TEMOA-G6	-8.78
+TEMOA-G7	-10.97
+>mue:	1.68894660217545
+>kendall:	0.476190476190472
+>pearson:	8.06725653897207e-15
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/bjyua-973-OA-dft-4.txt
+>Software
+Amber 16
+Turbomole 7.0
+COSMO-RS
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-3.80
+OA-G1	-3.61
+OA-G2	-9.88
+OA-G3	-4.17
+OA-G4	-11.45
+OA-G5	-5.24
+OA-G6	-1.84
+OA-G7	-4.51
+>mue:	0.789236181380453
+>kendall:	0.571428571428577
+>pearson:	2.68264283717175e-14
+>Name
+DFT-opt
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/y7u8q-973-TEMOA-submission-7.txt
+>Category
+None
+>Ranked
+None
+>Predictions
+TEMOA-G0	-7.31
+TEMOA-G1	-7.27
+TEMOA-G2	-8.94
+TEMOA-G3	-7.36
+TEMOA-G4	-8.74
+TEMOA-G5	-6.12
+TEMOA-G6	-7.36
+TEMOA-G7	-8.14
+>mue:	0.7453271093956
+>kendall:	0.333333333333368
+>pearson:	5.73671575330917e-15
+>Participant name
+None
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_7
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/caknz-973-TEMOA-WGatMSU-1.txt
+>Software
+MOE 2016.08
+AMBER16.7
+Gaussian 16
+>Predictions
+TEMOA-G0	-11.975	0.2117	
+TEMOA-G1	-11.3231	0.1806	
+TEMOA-G2	-19.3148	0.2288	
+TEMOA-G3	-8.2554	0.1835	
+TEMOA-G4	-19.1613	0.2494	
+TEMOA-G5	-6.131	0.2160	
+TEMOA-G6	-10.3743	0.1707	
+TEMOA-G7	-6.7641	0.2806	
+>mue:	2.47467650916236
+>kendall:	1.04761904761907
+>pearson:	0.928543769058433
+>Participant name
+None
+>Participant organization
+None
+>Name
+EKEN-DIAZ/MD/MMPBSA
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/null2-973-TEMOA-null1-2.txt
+>Participant name
+None
+>Predictions
+TEMOA-G0	-34.65408069
+TEMOA-G1	-34.03644809
+TEMOA-G2	-26.65630505
+TEMOA-G3	-28.96871941
+TEMOA-G4	-46.01526289
+TEMOA-G5	-26.07355071
+TEMOA-G6	-33.79028703
+TEMOA-G7	-26.17385158
+>mue:	9.50216591078719
+>kendall:	0.761904761904787
+>pearson:	4.90130652596052e-14
+>Participant organization
+None
+>Name
+NULL
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger Prime
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/7ihag-973-TEMOA-submission-9.txt
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-4.96
+TEMOA-G1	-4.12
+TEMOA-G2	-4.46
+TEMOA-G3	-5.32
+TEMOA-G4	-5.12
+TEMOA-G5	-4.92
+TEMOA-G6	-5.26
+TEMOA-G7	-5.17
+>mue:	0.545451361259645
+>kendall:	-0.190476190476182
+>pearson:	-1.07563420339787e-15
+>Participant name
+None
+>Name
+US/PMF/MT/MD_9
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/o3aiv-973-OA-submission-26.txt
+>Name
+US/PMF/MT/MD_26
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-5.20
+OA-G1	-6.01
+OA-G2	-9.80
+OA-G3	-5.53
+OA-G4	-8.41
+OA-G5	-6.92
+OA-G6	-5.93
+OA-G7	-5.98
+>mue:	0.438694797097025
+>kendall:	0.190476190476219
+>pearson:	1.26484713802555e-14
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/null3-973-OA-null1-3.txt
+>Ranked
+None
+>Category
+None
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-32.58567159
+OA-G1	-30.39634188
+OA-G2	-41.37830685
+OA-G3	-24.09193016
+OA-G4	-41.25728435
+OA-G5	-20.06602834
+OA-G6	-29.96944836
+OA-G7	-26.39773872
+>mue:	9.07520375207854
+>kendall:	0.761904761904754
+>pearson:	6.09585471076046e-14
+>Name
+NULL
+>Software
+Schrodinger Prime
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/zks3c-973-TEMOA-submission-23.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant name
+None
+>Predictions
+TEMOA-G0	-6.29
+TEMOA-G1	-4.60
+TEMOA-G2	-8.44
+TEMOA-G3	-4.60
+TEMOA-G4	-6.66
+TEMOA-G5	-4.83
+TEMOA-G6	-3.90
+TEMOA-G7	-6.53
+>mue:	0.489299563151246
+>kendall:	0.428571428571451
+>pearson:	6.23867838066639e-15
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_23
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ogd0g-973-OA-submission-16.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant name
+None
+>Predictions
+OA-G0	-8.61
+OA-G1	-8.17
+OA-G2	-9.88
+OA-G3	-8.27
+OA-G4	-9.88
+OA-G5	-8.27
+OA-G6	-8.21
+OA-G7	-8.89
+>mue:	1.057822054979
+>kendall:	1.04761904761904
+>pearson:	6.75140810236701e-15
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_16
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/egmst-973-OA-submission-6.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.76
+OA-G1	-6.07
+OA-G2	-9.16
+OA-G3	-7.18
+OA-G4	-9.19
+OA-G5	-7.56
+OA-G6	-7.18
+OA-G7	-7.49
+>mue:	0.691414989351547
+>kendall:	0.714285714285751
+>pearson:	8.86018125040508e-15
+>Name
+US/PMF/MT/MD_6
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/rc4qr-973-OA-submission-14.txt
+>Name
+US/PMF/MT/MD_14
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-6.83
+OA-G1	-6.80
+OA-G2	-11.24
+OA-G3	-7.40
+OA-G4	-9.31
+OA-G5	-7.63
+OA-G6	-7.17
+OA-G7	-8.20
+>mue:	0.809079337889678
+>kendall:	0.761904761904741
+>pearson:	1.39529100926705e-14
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/tj4jx-973-TEMOA-submission-5.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.66
+TEMOA-G1	-8.58
+TEMOA-G2	-11.98
+TEMOA-G3	-8.76
+TEMOA-G4	-11.56
+TEMOA-G5	-6.23
+TEMOA-G6	-8.75
+TEMOA-G7	-10.34
+>mue:	1.36112889727608
+>kendall:	0.380952380952169
+>pearson:	1.19036851860546e-14
+>Name
+US/PMF/MT/MD_5
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/e85s6-973-TEMOA-WGatMSU-1.txt
+>Ranked
+None
+>Category
+None
+>Name
+BSSE-corrected RI-B3PW91-D3 (SMD)/CBS
+>Participant name
+None
+>Predictions
+TEMOA-G0	-43.7478	0.00000		-57.8674	0.00000	
+TEMOA-G1	-41.9757	0.00000		-59.9514	0.00000	
+TEMOA-G2	-51.2347	0.00000		-66.7750	0.00000	
+TEMOA-G3	-43.5610	0.00000		-57.2301	0.00000	
+TEMOA-G4	-51.9783	0.00000		-66.3929	0.00000	
+TEMOA-G5	-37.0383	0.00000		-53.9008	0.00000	
+TEMOA-G6	-41.0502	0.00000		-55.9103	0.00000	
+TEMOA-G7	-45.9838	0.00000		-60.7083	0.00000	
+>mue:	13.7997044775196
+>kendall:	0.761904761904784
+>pearson:	0.740215080458164
+>Participant organization
+None
+>Software
+MOE 2016.08
+AMBER16.7
+Gaussian 16
+ORCA 4.0
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/bhns3-973-OA-nobufferModelA-1.txt
+>Software
+Sire/OpenMM6.3 software (revision 2017.1.0)
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/A
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-10.47	0.25	3.71	
+OA-G1	-10.00	0.74	3.77	
+OA-G2	-14.67	0.54	3.74	
+OA-G3	-7.19	0.48	3.73	
+OA-G4	-13.34	0.34	3.72	
+OA-G5	-8.41	0.17	3.70	
+OA-G6	-8.66	0.36	3.72	
+OA-G7	-9.35	0.15	3.70	
+>mue:	1.63930768542699
+>kendall:	0.761904761904755
+>pearson:	0.876496075667224
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/widya-973-OA-submission-3.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Name
+US/PMF/MT/MD_3
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+OA-G0	-10.01
+OA-G1	-8.76
+OA-G2	-10.98
+OA-G3	-7.98
+OA-G4	-10.45
+OA-G5	-7.96
+OA-G6	-7.33
+OA-G7	-7.68
+>mue:	1.1212067996137
+>kendall:	0.666666666666601
+>pearson:	1.05230280578842e-14
+>Category
+None
+>Ranked
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ct5x2-973-TEMOA-XiaodongRen-1.txt
+>Software
+Autodock 4.2.6
+Gromacs 2016.4
+AmberTools17
+Acpype
+>Category
+None
+>Ranked
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.6			0.1	
+TEMOA-G1	-8.2			0.1	
+TEMOA-G2	-11.9			0.1	
+TEMOA-G3	-6.3			0.1	
+TEMOA-G4	0.5			0.2	
+TEMOA-G5	-3.3			0.1	
+TEMOA-G6	-8.3			0.1	
+TEMOA-G7	-1.8			0.1	
+>mue:	1.3757111797176
+>kendall:	0.476190476190449
+>pearson:	0.126810366763726
+>Participant organization
+None
+>Name
+DDM/GAFF/AM1-BCC/TIP3P
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ei3s2-973-TEMOA-submission-25.txt
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.53
+TEMOA-G1	-7.30
+TEMOA-G2	-10.10
+TEMOA-G3	-7.30
+TEMOA-G4	-8.80
+TEMOA-G5	-7.47
+TEMOA-G6	-6.79
+TEMOA-G7	-8.71
+>mue:	0.939319900246982
+>kendall:	0.42857142857145
+>pearson:	4.48180918027575e-15
+>Participant organization
+None
+>Name
+US/PMF/MT/MD_25
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/emfe8-973-OA-submission-12.txt
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-6.78
+OA-G1	-6.45
+OA-G2	-8.04
+OA-G3	-7.18
+OA-G4	-7.05
+OA-G5	-6.88
+OA-G6	-6.68
+OA-G7	-7.39
+>mue:	0.531893727637392
+>kendall:	0.761904761904767
+>pearson:	4.03000718161158e-15
+>Name
+US/PMF/MT/MD_12
+>Ranked
+None
+>Category
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/d6js7-973-TEMOA-submission-16.txt
+>Name
+US/PMF/MT/MD_16
+>Participant organization
+None
+>Participant name
+None
+>Predictions
+TEMOA-G0	-8.92
+TEMOA-G1	-8.07
+TEMOA-G2	-10.58
+TEMOA-G3	-8.46
+TEMOA-G4	-10.71
+TEMOA-G5	-8.69
+TEMOA-G6	-8.06
+TEMOA-G7	-9.55
+>mue:	1.25300513765906
+>kendall:	0.476190476190259
+>pearson:	5.52158890922361e-15
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/ftout-973-OA-submission-21.txt
+>Name
+US/PMF/MT/MD_21
+>Participant name
+None
+>Participant organization
+None
+>Predictions
+OA-G0	-7.05
+OA-G1	-5.95
+OA-G2	-11.09
+OA-G3	-6.45
+OA-G4	-7.84
+OA-G5	-7.05
+OA-G6	-5.63
+OA-G7	-7.65
+>mue:	0.580798211515841
+>kendall:	0.90476190476191
+>pearson:	1.53406995213273e-14
+>Category
+None
+>Ranked
+None
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/mhwfc-973-TEMOA-submission-8.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Participant organization
+None
+>Predictions
+TEMOA-G0	-6.38
+TEMOA-G1	-1.14
+TEMOA-G2	-3.27
+TEMOA-G3	-8.67
+TEMOA-G4	-7.36
+TEMOA-G5	-6.13
+TEMOA-G6	-8.24
+TEMOA-G7	-7.74
+>mue:	1.04993526586166
+>kendall:	-0.190476190476168
+>pearson:	-6.23867837804406e-15
+>Participant name
+None
+>Name
+US/PMF/MT/MD_8
+>Ranked
+None
+>Category
+None
+#
+#
+>File
+/home/von/tirocinio/SAMPL6/OCTA/ANALYSIS/n7b3v-973-TEMOA-submission-17.txt
+>Software
+Schrodinger
+AMBER16
+AMBERTOOlS 16
+MATLAB
+>Ranked
+None
+>Category
+None
+>Name
+US/PMF/MT/MD_17
+>Predictions
+TEMOA-G0	-7.99
+TEMOA-G1	-7.38
+TEMOA-G2	-9.18
+TEMOA-G3	-7.66
+TEMOA-G4	-9.27
+TEMOA-G5	-7.82
+TEMOA-G6	-7.37
+TEMOA-G7	-8.45
+>mue:	0.916027428628641
+>kendall:	0.476190476190258
+>pearson:	3.90813761092791e-15
+>Participant name
+None
+>Participant organization
+None
+#

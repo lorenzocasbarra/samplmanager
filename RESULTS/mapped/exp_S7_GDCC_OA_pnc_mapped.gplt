@@ -1,0 +1,10 @@
+set terminal jpeg enhanced size 800,600
+set output "./workspace/RESULTS/mapped/exp_S7_GDCC_OA_pnc_mapped.gplt.jpeg"
+set size square
+set xlabel "exp." font "Times,14"
+set ylabel "pred" font "Times,14"
+set title "exp_S7_GDCC_OA_pnc_mapped" noenhanced
+set key left top
+set xrange [-9.73:-3.45]
+set yrange [-9.73:-3.45]
+plot './workspace/RESULTS/mapped/exp_S7_GDCC_OA_pnc_mapped_best' u 3:2 w p notitle linecolor 1,'./workspace/RESULTS/mapped/exp_S7_GDCC_OA_pnc_mapped_our' u 3:2 w p notitle linecolor 2,x notitle linecolor 0, 1.15490355344807*x+0.974113046628022  title "GDCC-ponder" noenhanced linetype 5 linecolor 1, 0.516193044446621*x+-3.63886417703114 title "ourdock" noenhanced linetype 7 linecolor 2

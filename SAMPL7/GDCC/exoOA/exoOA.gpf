@@ -1,0 +1,14 @@
+npts 40 40 40                        # num.grid points in xyz
+gridfld exoOA.maps.fld               # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C HD OA             # receptor atom types
+ligand_types A C N                   # ligand atom types
+receptor exoOA.pdbqt                 # macromolecule
+gridcenter auto                      # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map exoOA.A.map                      # atom-specific affinity map
+map exoOA.C.map                      # atom-specific affinity map
+map exoOA.N.map                      # atom-specific affinity map
+elecmap exoOA.e.map                  # electrostatic potential map
+dsolvmap exoOA.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

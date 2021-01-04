@@ -1,0 +1,13 @@
+npts 40 40 40                        # num.grid points in xyz
+gridfld clip.maps.fld                # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C N OA S            # receptor atom types
+ligand_types C N                     # ligand atom types
+receptor clip.pdbqt                  # macromolecule
+gridcenter auto                      # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map clip.C.map                       # atom-specific affinity map
+map clip.N.map                       # atom-specific affinity map
+elecmap clip.e.map                   # electrostatic potential map
+dsolvmap clip.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

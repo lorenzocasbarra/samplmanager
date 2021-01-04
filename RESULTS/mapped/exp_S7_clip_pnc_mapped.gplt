@@ -1,0 +1,10 @@
+set terminal jpeg enhanced size 800,600
+set output "./workspace/RESULTS/mapped/exp_S7_clip_pnc_mapped.gplt.jpeg"
+set size square
+set xlabel "exp." font "Times,14"
+set ylabel "pred" font "Times,14"
+set title "exp_S7_clip_pnc_mapped" noenhanced
+set key left top
+set xrange [-13.71:-3.87]
+set yrange [-13.71:-3.87]
+plot './workspace/RESULTS/mapped/exp_S7_clip_pnc_mapped_best' u 3:2 w p notitle linecolor 1,'./workspace/RESULTS/mapped/exp_S7_clip_pnc_mapped_our' u 3:2 w p notitle linecolor 2,x notitle linecolor 0, 1.13535918494645*x+1.63102274664714  title "Clip-ponder-3" noenhanced linetype 5 linecolor 1, 0.341310016717214*x+-4.83774621329048 title "ourdock" noenhanced linetype 7 linecolor 2

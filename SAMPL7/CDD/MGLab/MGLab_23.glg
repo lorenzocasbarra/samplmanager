@@ -1,0 +1,893 @@
+
+       _______________________________________________________
+
+__________//____________________________/////_________________/________
+_________/__/____________/_____________/______________/_______/________
+________/____/___________/_____________/______________________/________
+________/____/__/_____/_/////___/////__/__////_/_///__/__////_/________
+_______/______/_/_____/__/_____/_____/_/_____/_//___/_/_/____//________
+_______////////_/_____/__/_____/_____/_/_____/_/______/_/_____/________
+_______/______/_/____//__/___/_/_____/_/_____/_/______/_/____//________
+_______/______/__////_/___///___/////___/////__/______/__////_/________
+
+       _______________________________________________________
+
+                                ______
+                               /      \
+                              /        \
+                             /          \
+                             \    /\    /
+                              \  /  \  /
+                               \/ /\ \/
+                                 /  \
+                                /____\
+
+
+                ______________________________________ 
+               |                                      |
+               |            AutoGrid 4.2.6            |
+               |                                      |
+               |        Garrett M. Morris, TSRI       |
+               |            Ruth Huey, TSRI           |
+               |        David S. Goodsell, TSRI       |
+               |         Arthur J. Olson, TSRI        |
+               |                                      |
+               |        (C) 1989-2009, TSRI           |
+               |   The Scripps Research Institute     |
+               |______________________________________|
+
+                ______________________________________ 
+               |                                      |
+               | Calculation of van der Waals, H-Bond,|
+               |   Electrostatic Potential Energy, &  |
+               |   Desolvation Free Energy Grid Maps  |
+               |             for AutoDock             |
+               | For help, email autodock@scripps.edu |
+               |______________________________________|
+
+
+
+
+                           $Revision: 1.109 $
+Compilation parameters:  NUM_RECEPTOR_TYPES=20 NEINT=2048
+   MAX_MAPS=16 NDIEL=16384 MAX_ATOM_TYPES=14
+ energy_lookup table has   655360 entries of size 8
+        e_vdW_Hb table has   401408 entries of size 8
+Maximum number of maps that can be computed = 16 (defined by MAX_MAPS in "autocomm.h").
+This file was created at:			11:32 41" p.m., 12/19/2020
+                   using:			"von-b"
+
+
+GPF> npts 40 40 40                        # num.grid points in xyz
+
+Number of grid points in x-direction:	41
+Number of grid points in y-direction:	41
+Number of grid points in z-direction:	41
+
+GPF> gridfld MGLab_23.maps.fld            # grid_data_file
+
+Creating (AVS-readable) grid maps file : MGLab_23.maps.fld
+
+Creating (AVS-readable) grid-coordinates extrema file : MGLab_23.maps.xyz
+
+GPF> spacing 0.375                        # spacing(A)
+Grid Spacing :			0.375 Angstrom
+
+GPF> receptor_types C HD N OA SA          # receptor atom types
+GPF> ligand_types C HD OA                 # ligand atom types
+
+Atom type names for ligand atom types 1-3 used for ligand-atom affinity grid maps:
+
+			Atom type number 0 corresponds to atom type name "C".
+			Atom type number 1 corresponds to atom type name "HD".
+			Atom type number 2 corresponds to atom type name "OA".
+
+
+GPF> receptor MGLab_23.pdbqt              # macromolecule
+
+Receptor Input File :	MGLab_23.pdbqt
+
+Receptor Atom Type Assignments:
+
+Atom no.  1, " C1 " at (25.947, 110.770, 34.130),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no.  2, " O1 " at (24.917, 110.529, 35.132),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no.  3, " C2 " at (26.127, 109.504, 33.264),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no.  4, " O2 " at (24.895, 109.252, 32.618),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no.  5, " C3 " at (26.548, 108.320, 34.152),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no.  6, " O3 " at (26.793, 107.192, 33.336),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no.  7, " C4 " at (27.828, 108.660, 34.935),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no.  8, " C5 " at (27.649, 109.960, 35.745),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no.  9, " O5 " at (27.195, 111.005, 34.835),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 10, " C6 " at (28.941, 110.468, 36.400),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 11, " O6 " at (29.971, 110.675, 35.455),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 12, " H2 " at (24.229, 109.133, 33.300),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 13, " H3 " at (27.502, 107.420, 32.731),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 14, " H6 " at (29.657, 111.324, 34.821),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 15, " C1 " at (21.495, 112.498, 36.636),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 16, " O1 " at (21.776, 111.958, 37.960),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 17, " C2 " at (21.276, 111.338, 35.639),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 18, " O2 " at (20.193, 110.564, 36.116),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 19, " C3 " at (22.555, 110.492, 35.524),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 20, " O3 " at (22.363, 109.476, 34.559),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 21, " C4 " at (23.739, 111.374, 35.095),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 22, " C5 " at (23.926, 112.525, 36.104),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 23, " O5 " at (22.662, 113.250, 36.206),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 24, " C6 " at (24.996, 113.556, 35.713),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 25, " O6 " at (24.748, 114.117, 34.440),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 26, " H2 " at (20.426, 110.247, 36.991),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 27, " H3 " at (22.175, 109.903, 33.720),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 28, " H6 " at (23.889, 114.543, 34.474),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 29, " C1 " at (20.935, 112.779, 42.013),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 30, " O1 " at (21.689, 111.585, 42.364),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 31, " C2 " at (19.742, 112.387, 41.114),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 32, " O2 " at (18.930, 111.493, 41.849),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 33, " C3 " at (20.253, 111.739, 39.813),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 34, " O3 " at (19.153, 111.470, 38.966),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 35, " C4 " at (21.225, 112.687, 39.089),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 36, " C5 " at (22.388, 113.078, 40.022),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 37, " O5 " at (21.815, 113.639, 41.240),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 38, " C6 " at (23.330, 114.142, 39.441),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 39, " O6 " at (22.638, 115.312, 39.055),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 40, " H2 " at (19.471, 110.735, 42.082),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 41, " H3 " at (18.723, 112.306, 38.773),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 42, " H6 " at (22.203, 115.662, 39.836),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 43, " C1 " at (23.461, 109.897, 45.800),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 44, " O1 " at (24.538, 109.410, 44.955),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 45, " C2 " at (22.124, 109.291, 45.320),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 46, " O2 " at (22.240, 107.884, 45.407),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 47, " C3 " at (21.835, 109.735, 43.876),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 48, " O3 " at (20.575, 109.235, 43.473),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 49, " C4 " at (21.821, 111.269, 43.775),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 50, " C5 " at (23.158, 111.847, 44.285),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 51, " O5 " at (23.391, 111.339, 45.634),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 52, " C6 " at (23.207, 113.378, 44.381),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 53, " O6 " at (22.160, 113.890, 45.180),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 54, " H2 " at (22.977, 107.619, 44.851),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 55, " H3 " at (19.915, 109.602, 44.066),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 56, " H6 " at (22.251, 113.511, 46.057),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 57, " C1 " at (28.410, 107.889, 45.095),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 58, " O1 " at (28.076, 107.393, 43.764),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 59, " C2 " at (27.429, 107.309, 46.136),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 60, " O2 " at (27.625, 105.911, 46.185),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 61, " C3 " at (25.987, 107.668, 45.737),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 62, " O3 " at (25.097, 107.198, 46.730),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 63, " C4 " at (25.822, 109.192, 45.588),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 64, " C5 " at (26.893, 109.802, 44.658),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 65, " O5 " at (28.210, 109.326, 45.074),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 66, " C6 " at (26.931, 111.336, 44.704),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 67, " O6 " at (27.197, 111.822, 46.004),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 68, " H2 " at (27.463, 105.564, 45.305),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 69, " H3 " at (25.326, 107.633, 47.554),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 70, " H6 " at (28.049, 111.473, 46.276),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 71, " C1 " at (29.735, 104.942, 40.762),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 72, " O1 " at (29.064, 105.772, 39.771),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 73, " C2 " at (28.676, 104.309, 41.693),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 74, " O2 " at (27.815, 103.529, 40.887),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 75, " C3 " at (27.902, 105.420, 42.422),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 76, " C4 " at (28.868, 106.307, 43.225),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 77, " C5 " at (29.931, 106.907, 42.282),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 78, " O5 " at (30.583, 105.811, 41.567),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 79, " C6 " at (31.034, 107.696, 43.002),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 80, " O6 " at (31.716, 106.900, 43.950),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 81, " NQ " at (26.924, 104.830, 43.330),  was assigned atom type "N" (rec_index= 2, atom_type= 2).
+Atom no. 82, " C9 " at (25.594, 104.985, 43.229),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 83, " C1 " at (24.749, 104.321, 44.315),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 84, " C12" at (24.718, 102.796, 44.153),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 85, " C12" at (23.887, 102.093, 45.231),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 86, " N12" at (24.321, 100.875, 45.594),  was assigned atom type "N" (rec_index= 2, atom_type= 2).
+Atom no. 87, " C12" at (23.724, 99.991, 46.592),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 88, " C12" at (24.694, 98.997, 47.252),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 89, " O12" at (25.818, 98.594, 46.590),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 90, " C12" at (22.488, 99.285, 46.002),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 91, " C12" at (22.038, 98.096, 46.864),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 92, " C12" at (20.856, 97.359, 46.234),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 93, " N12" at (21.129, 96.617, 45.150),  was assigned atom type "N" (rec_index= 2, atom_type= 2).
+Atom no. 94, " C12" at (20.150, 95.824, 44.411),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 95, " C12" at (20.824, 94.639, 43.697),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 96, " N12" at (22.107, 94.779, 43.322),  was assigned atom type "N" (rec_index= 2, atom_type= 2).
+Atom no. 97, " C12" at (22.901, 93.749, 42.668),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 98, " C12" at (23.378, 92.711, 43.680),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 99, " O12" at (24.582, 92.911, 44.291),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 100, " C12" at (19.076, 95.268, 45.358),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 101, " S12" at (18.061, 96.607, 46.040),  was assigned atom type "SA" (rec_index= 4, atom_type= 4).
+Atom no. 102, " O  " at (25.046, 105.620, 42.328),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 103, " O  " at (22.875, 102.627, 45.686),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 104, " O  " at (24.457, 98.551, 48.372),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 105, " O  " at (19.729, 97.477, 46.714),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 106, " O  " at (20.187, 93.600, 43.520),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 107, " O  " at (22.701, 91.720, 43.947),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 108, " H2 " at (27.423, 104.111, 40.232),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 109, " H6 " at (32.105, 106.158, 43.480),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 110, " HQ " at (27.272, 104.265, 44.090),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 111, "3H12" at (25.150, 100.534, 45.127),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 112, "3H12" at (22.084, 96.606, 44.820),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 113, "2H12" at (22.554, 95.666, 43.508),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 114, "2H12" at (17.463, 97.263, 45.042),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 115, " C1 " at (29.261, 106.788, 35.689),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 116, " O1 " at (28.051, 107.578, 35.875),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 117, " C2 " at (28.968, 105.310, 36.031),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 118, " O2 " at (27.945, 104.867, 35.161),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 119, " C3 " at (28.537, 105.183, 37.503),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 120, " O3 " at (28.352, 103.817, 37.816),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 121, " C4 " at (29.615, 105.771, 38.430),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 122, " C5 " at (29.917, 107.232, 38.046),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 123, " O5 " at (30.258, 107.277, 36.627),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 124, " C6 " at (31.100, 107.843, 38.811),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 125, " O6 " at (32.285, 107.093, 38.639),  was assigned atom type "OA" (rec_index= 3, atom_type= 3).
+Atom no. 126, " H2 " at (27.179, 105.428, 35.304),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 127, " H3 " at (29.190, 103.371, 37.675),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+Atom no. 128, " H6 " at (32.485, 107.076, 37.700),  was assigned atom type "HD" (rec_index= 1, atom_type= 1).
+
+Maximum partial atomic charge found = +0.292 e
+Minimum partial atomic charge found = -0.647 e
+
+Atom	Atom	Number of this Type
+Type	 ID 	 in Receptor
+____	____	___________________
+ 0	 C		    56
+ 1	 HD		    25
+ 2	 N		     4
+ 3	 OA		    42
+ 4	 SA		     1
+
+Total number of atoms :		128 atoms 
+Total charge :			-2.00 e
+
+
+Receptor coordinates fit within the following volume:
+
+                   _______(32.5, 115.7, 48.4)
+                  /|     /|
+                 / |    / |
+                /______/  |
+                |  |___|__| Midpoint = (25.0, 103.7, 40.5)
+                |  /   |  /
+                | /    | /
+                |/_____|/
+(17.5, 91.7, 32.6)      
+
+Maximum coordinates :		(32.485, 115.662, 48.372)
+Minimum coordinates :		(17.463, 91.720, 32.618)
+
+
+GPF> gridcenter auto                      # xyz-coordinates or auto
+Grid maps will be centered on the center of mass.
+Coordinates of center of mass : (24.833, 106.627, 41.182)
+
+Grid maps will cover the following volume:
+
+                   _______(32.3, 114.1, 48.7)
+                  /|     /|
+                 / |    / |
+                /______/  |
+                |  |___|__| Midpoint = (24.8, 106.6, 41.2)
+                |  /   |  /
+                | /    | /
+                |/_____|/
+(17.3, 99.1, 33.7)      
+
+Grid map x-dimension :		15.0 Angstroms
+Grid map y-dimension :		15.0 Angstroms
+Grid map z-dimension :		15.0 Angstroms
+
+Maximum coordinates :		(32.333, 114.127, 48.682)
+Minimum coordinates :		(17.333, 99.127, 33.682)
+
+GPF> smooth 0.5                           # store minimum energy w/in rad(A)
+
+Potentials will be smoothed by: 0.500 Angstrom
+
+GPF> map MGLab_23.C.map                   # atom-specific affinity map
+
+Output Grid Map 1:   MGLab_23.C.map
+
+GPF> map MGLab_23.HD.map                  # atom-specific affinity map
+
+Output Grid Map 2:   MGLab_23.HD.map
+
+GPF> map MGLab_23.OA.map                  # atom-specific affinity map
+
+Output Grid Map 3:   MGLab_23.OA.map
+
+GPF> elecmap MGLab_23.e.map               # electrostatic potential map
+
+Output Electrostatic Potential Energy Grid Map: MGLab_23.e.map
+
+GPF> dsolvmap MGLab_23.d.map              # desolvation potential map
+
+Output Desolvation Free Energy Grid Map: MGLab_23.d.map
+
+GPF> dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant
+
+Using *distance-dependent* dielectric function of Mehler and Solmajer, Prot.Eng.4, 903-910.
+
+  d   Dielectric
+ ___  __________
+ 0.0     1.00
+ 0.1     1.63
+ 0.2     1.91
+ 0.3     2.21
+ 0.4     2.51
+ 0.5     2.82
+ 0.6     3.13
+ 0.7     3.45
+ 0.8     3.78
+ 0.9     4.12
+ 1.0     4.47
+ 1.1     4.82
+ 1.2     5.18
+ 1.3     5.55
+ 1.4     5.93
+ 1.5     6.31
+ 1.6     6.70
+ 1.7     7.10
+ 1.8     7.51
+ 1.9     7.93
+ 2.0     8.36
+ 2.1     8.79
+ 2.2     9.23
+ 2.3     9.68
+ 2.4    10.14
+ 2.5    10.61
+ 2.6    11.08
+ 2.7    11.57
+ 2.8    12.06
+ 2.9    12.56
+ 3.0    13.07
+ 3.1    13.58
+ 3.2    14.11
+ 3.3    14.64
+ 3.4    15.18
+ 3.5    15.73
+ 3.6    16.28
+ 3.7    16.85
+ 3.8    17.42
+ 3.9    18.00
+ 4.0    18.58
+ 4.1    19.17
+ 4.2    19.77
+ 4.3    20.38
+ 4.4    20.99
+ 4.5    21.61
+ 4.6    22.23
+ 4.7    22.86
+ 4.8    23.50
+ 4.9    24.14
+ 5.0    24.78
+
+
+>>> Closing the grid parameter file (GPF)... <<<
+
+________________________________________________________________________________
+
+
+
+No Floating Grid was requested.
+
+
+Calculating Pairwise Interaction Energies
+=========================================
+
+
+              418256.0           204.2 
+    E    =  -----------  -  -----------
+     C, C         12               6
+                r               r 
+
+Calculating energies for C-C interactions.
+
+                4837.8            13.3 
+    E    =  -----------  -  -----------
+     C, HD         12               6
+                r               r 
+
+Calculating energies for C-HD interactions.
+
+              199118.6           143.2 
+    E    =  -----------  -  -----------
+     C, N         12               6
+                r               r 
+
+Calculating energies for C-N interactions.
+
+              136402.3           125.3 
+    E    =  -----------  -  -----------
+     C, OA         12               6
+                r               r 
+
+Calculating energies for C-OA interactions.
+
+              482960.4           235.8 
+    E    =  -----------  -  -----------
+     C, SA         12               6
+                r               r 
+
+Calculating energies for C-SA interactions.
+
+
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.4    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.5    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.6    1e+05 33975.82    1e+05    1e+05    1e+05
+ 0.7    1e+05  8934.84    1e+05    1e+05    1e+05
+ 0.8    1e+05  2683.96    1e+05 75860.38    1e+05
+ 0.9 78086.74   898.48 37154.78 25440.38 90166.80
+ 1.0 28688.80   328.97 13645.79  9340.64 33126.97
+ 1.1 11380.24   129.83  5410.18  3701.64 13140.77
+ 1.2  4820.04    54.58  2289.72  1565.60  5565.70
+ 1.3  2160.29    24.20  1025.13   700.28  2494.48
+ 1.4  1017.03    11.22   481.90   328.77  1174.37
+ 1.5   499.86     5.40   236.37   160.97   577.19
+ 1.6   255.15     2.68   120.32    81.75   294.62
+ 1.7   134.65     1.36    63.27    42.84   155.48
+ 1.8    73.18     0.70    34.22    23.07    84.50
+ 1.9    40.81     0.36    18.96    12.71    47.12
+ 2.0    23.27     0.19    10.72     7.14    26.87
+ 2.1    13.53     0.09     6.17     4.06    15.63
+ 2.2     8.00     0.04     3.59     2.34     9.24
+ 2.3     4.79     0.02     2.11     1.35     5.53
+ 2.4     2.90     0.00     1.25     0.78     3.35
+ 2.5     1.76    -0.00     0.73     0.44     2.04
+ 2.6     1.08    -0.01     0.43     0.24     1.24
+ 2.7     0.65    -0.01     0.24     0.12     0.75
+ 2.8     0.39    -0.01     0.13     0.05     0.45
+ 2.9     0.23    -0.01     0.06     0.01     0.26
+ 3.0     0.13    -0.01     0.02    -0.01     0.15
+ 3.1     0.06    -0.01    -0.00    -0.02     0.07
+ 3.2     0.03    -0.01    -0.01    -0.03     0.03
+ 3.3     0.00    -0.01    -0.02    -0.03     0.00
+ 3.4    -0.01    -0.01    -0.02    -0.03    -0.01
+ 3.5    -0.02    -0.01    -0.03    -0.03    -0.02
+ 3.6    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.7    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.8    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.9    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.0    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.1    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.2    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.3    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.4    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.5    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.6    -0.02    -0.00    -0.02    -0.02    -0.02
+ 4.7    -0.02    -0.00    -0.02    -0.01    -0.02
+ 4.8    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.9    -0.02    -0.00    -0.01    -0.01    -0.02
+ 5.0    -0.01    -0.00    -0.01    -0.01    -0.02
+
+
+
+EnergyTable:
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.4    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.5    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.6    1e+05 33975.82    1e+05    1e+05    1e+05
+ 0.7    1e+05  8934.84    1e+05    1e+05    1e+05
+ 0.8    1e+05  2683.96    1e+05 75860.38    1e+05
+ 0.9 78086.74   898.48 37154.78 25440.38 90166.80
+ 1.0 28688.80   328.97 13645.79  9340.64 33126.97
+ 1.1 11380.24   129.83  5410.18  3701.64 13140.77
+ 1.2  4820.04    54.58  2289.72  1565.60  5565.70
+ 1.3  2160.29    24.20  1025.13   700.28  2494.48
+ 1.4  1017.03    11.22   481.90   328.77  1174.37
+ 1.5   499.86     5.40   236.37   160.97   577.19
+ 1.6   255.15     2.68   120.32    81.75   294.62
+ 1.7   134.65     1.36    63.27    42.84   155.48
+ 1.8    73.18     0.70    34.22    23.07    84.50
+ 1.9    40.81     0.36    18.96    12.71    47.12
+ 2.0    23.27     0.19    10.72     7.14    26.87
+ 2.1    13.53     0.09     6.17     4.06    15.63
+ 2.2     8.00     0.04     3.59     2.34     9.24
+ 2.3     4.79     0.02     2.11     1.35     5.53
+ 2.4     2.90     0.00     1.25     0.78     3.35
+ 2.5     1.76    -0.00     0.73     0.44     2.04
+ 2.6     1.08    -0.01     0.43     0.24     1.24
+ 2.7     0.65    -0.01     0.24     0.12     0.75
+ 2.8     0.39    -0.01     0.13     0.05     0.45
+ 2.9     0.23    -0.01     0.06     0.01     0.26
+ 3.0     0.13    -0.01     0.02    -0.01     0.15
+ 3.1     0.06    -0.01    -0.00    -0.02     0.07
+ 3.2     0.03    -0.01    -0.01    -0.03     0.03
+ 3.3     0.00    -0.01    -0.02    -0.03     0.00
+ 3.4    -0.01    -0.01    -0.02    -0.03    -0.01
+ 3.5    -0.02    -0.01    -0.03    -0.03    -0.02
+ 3.6    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.7    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.8    -0.02    -0.01    -0.03    -0.03    -0.03
+ 3.9    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.0    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.1    -0.02    -0.00    -0.03    -0.03    -0.03
+ 4.2    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.3    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.4    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.5    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.6    -0.02    -0.00    -0.02    -0.02    -0.02
+ 4.7    -0.02    -0.00    -0.02    -0.01    -0.02
+ 4.8    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.9    -0.02    -0.00    -0.01    -0.01    -0.02
+ 5.0    -0.01    -0.00    -0.01    -0.01    -0.02
+
+
+                4837.8            13.3 
+    E    =  -----------  -  -----------
+     HD, C         12               6
+                r               r 
+
+Calculating energies for HD-C interactions.
+
+                  13.6             0.4 
+    E    =  -----------  -  -----------
+     HD, HD         12               6
+                r               r 
+
+Calculating energies for HD-HD interactions.
+
+                1758.7             8.1 
+    E    =  -----------  -  -----------
+     HD, N         12               6
+                r               r 
+
+Calculating energies for HD-N interactions.
+
+                6689.7          2223.7 
+    E    =  -----------  -  -----------
+     HD, OA         12              10
+                r               r 
+
+Calculating energies for HD-OA interactions.
+
+               36031.0          6918.0 
+    E    =  -----------  -  -----------
+     HD, SA         12              10
+                r               r 
+
+Calculating energies for HD-SA interactions.
+
+
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05 17753.86    1e+05    1e+05    1e+05
+ 0.4    1e+05  2388.01    1e+05    1e+05    1e+05
+ 0.5    1e+05   427.43 55476.06    1e+05    1e+05
+ 0.6 33975.82    94.59 12342.78 35735.60    1e+05
+ 0.7  8934.84    24.62  3243.67  8666.11 55125.38
+ 0.8  2683.96     7.26   973.26  2359.92 15816.39
+ 0.9   898.48     2.36   325.20   700.69  5024.44
+ 1.0   328.97     0.82   118.73   220.94  1733.22
+ 1.1   129.83     0.30    46.65    71.96   639.20
+ 1.2    54.58     0.11    19.49    23.32   248.74
+ 1.3    24.20     0.04     8.56     7.01   100.94
+ 1.4    11.22     0.01     3.92     1.56    42.23
+ 1.5     5.40     0.00     1.85    -0.15    17.99
+ 1.6     2.68    -0.00     0.89    -0.57     7.69
+ 1.7     1.36    -0.00     0.43    -0.60     3.22
+ 1.8     0.70    -0.00     0.21    -0.60     1.26
+ 1.9     0.36    -0.00     0.10    -0.60     0.42
+ 2.0     0.19    -0.00     0.04    -0.60     0.06
+ 2.1     0.09    -0.00     0.01    -0.60    -0.08
+ 2.2     0.04    -0.00    -0.00    -0.58    -0.12
+ 2.3     0.02    -0.00    -0.01    -0.48    -0.12
+ 2.4     0.00    -0.00    -0.01    -0.37    -0.12
+ 2.5    -0.00    -0.00    -0.01    -0.27    -0.12
+ 2.6    -0.01    -0.00    -0.01    -0.20    -0.12
+ 2.7    -0.01    -0.00    -0.01    -0.14    -0.12
+ 2.8    -0.01    -0.00    -0.01    -0.10    -0.12
+ 2.9    -0.01    -0.00    -0.01    -0.07    -0.10
+ 3.0    -0.01    -0.00    -0.01    -0.05    -0.09
+ 3.1    -0.01    -0.00    -0.01    -0.04    -0.07
+ 3.2    -0.01    -0.00    -0.01    -0.03    -0.06
+ 3.3    -0.01    -0.00    -0.01    -0.02    -0.04
+ 3.4    -0.01    -0.00    -0.01    -0.02    -0.03
+ 3.5    -0.01    -0.00    -0.01    -0.01    -0.03
+ 3.6    -0.01    -0.00    -0.00    -0.01    -0.02
+ 3.7    -0.01    -0.00    -0.00    -0.01    -0.02
+ 3.8    -0.01    -0.00    -0.00    -0.01    -0.01
+ 3.9    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.0    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.1    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.2    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.3    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.4    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.5    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.6    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.7    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.8    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.9    -0.00    -0.00    -0.00    -0.00    -0.00
+ 5.0    -0.00    -0.00    -0.00    -0.00    -0.00
+
+
+
+EnergyTable:
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05 17753.86    1e+05    1e+05    1e+05
+ 0.4    1e+05  2388.01    1e+05    1e+05    1e+05
+ 0.5    1e+05   427.43 55476.06    1e+05    1e+05
+ 0.6 33975.82    94.59 12342.78 35735.60    1e+05
+ 0.7  8934.84    24.62  3243.67  8666.11 55125.38
+ 0.8  2683.96     7.26   973.26  2359.92 15816.39
+ 0.9   898.48     2.36   325.20   700.69  5024.44
+ 1.0   328.97     0.82   118.73   220.94  1733.22
+ 1.1   129.83     0.30    46.65    71.96   639.20
+ 1.2    54.58     0.11    19.49    23.32   248.74
+ 1.3    24.20     0.04     8.56     7.01   100.94
+ 1.4    11.22     0.01     3.92     1.56    42.23
+ 1.5     5.40     0.00     1.85    -0.15    17.99
+ 1.6     2.68    -0.00     0.89    -0.57     7.69
+ 1.7     1.36    -0.00     0.43    -0.60     3.22
+ 1.8     0.70    -0.00     0.21    -0.60     1.26
+ 1.9     0.36    -0.00     0.10    -0.60     0.42
+ 2.0     0.19    -0.00     0.04    -0.60     0.06
+ 2.1     0.09    -0.00     0.01    -0.60    -0.08
+ 2.2     0.04    -0.00    -0.00    -0.58    -0.12
+ 2.3     0.02    -0.00    -0.01    -0.48    -0.12
+ 2.4     0.00    -0.00    -0.01    -0.37    -0.12
+ 2.5    -0.00    -0.00    -0.01    -0.27    -0.12
+ 2.6    -0.01    -0.00    -0.01    -0.20    -0.12
+ 2.7    -0.01    -0.00    -0.01    -0.14    -0.12
+ 2.8    -0.01    -0.00    -0.01    -0.10    -0.12
+ 2.9    -0.01    -0.00    -0.01    -0.07    -0.10
+ 3.0    -0.01    -0.00    -0.01    -0.05    -0.09
+ 3.1    -0.01    -0.00    -0.01    -0.04    -0.07
+ 3.2    -0.01    -0.00    -0.01    -0.03    -0.06
+ 3.3    -0.01    -0.00    -0.01    -0.02    -0.04
+ 3.4    -0.01    -0.00    -0.01    -0.02    -0.03
+ 3.5    -0.01    -0.00    -0.01    -0.01    -0.03
+ 3.6    -0.01    -0.00    -0.00    -0.01    -0.02
+ 3.7    -0.01    -0.00    -0.00    -0.01    -0.02
+ 3.8    -0.01    -0.00    -0.00    -0.01    -0.01
+ 3.9    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.0    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.1    -0.00    -0.00    -0.00    -0.00    -0.01
+ 4.2    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.3    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.4    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.5    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.6    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.7    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.8    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.9    -0.00    -0.00    -0.00    -0.00    -0.00
+ 5.0    -0.00    -0.00    -0.00    -0.00    -0.00
+
+
+              136402.3           125.3 
+    E    =  -----------  -  -----------
+     OA, C         12               6
+                r               r 
+
+Calculating energies for OA-C interactions.
+
+                6689.7          2223.7 
+    E    =  -----------  -  -----------
+     OA, HD         12              10
+                r               r 
+
+Calculating energies for OA-HD interactions.
+
+               59394.2            84.0 
+    E    =  -----------  -  -----------
+     OA, N         12               6
+                r               r 
+
+Calculating energies for OA-N interactions.
+
+               38323.1            71.4 
+    E    =  -----------  -  -----------
+     OA, OA         12               6
+                r               r 
+
+Calculating energies for OA-OA interactions.
+
+              157503.8           144.7 
+    E    =  -----------  -  -----------
+     OA, SA         12               6
+                r               r 
+
+Calculating energies for OA-SA interactions.
+
+
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.4    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.5    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.6    1e+05 35735.60    1e+05    1e+05    1e+05
+ 0.7    1e+05  8666.11    1e+05 70824.32    1e+05
+ 0.8 75860.38  2359.92 33010.17 21286.48 87596.02
+ 0.9 25440.38   700.69 11064.86  7132.00 29376.02
+ 1.0  9340.64   220.94  4059.50  2614.83 10785.64
+ 1.1  3701.64    71.96  1606.95  1034.02  4274.29
+ 1.2  1565.60    23.32   678.54   435.97  1807.80
+ 1.3   700.28     7.01   302.80   194.14   808.61
+ 1.4   328.77     1.56   141.70    90.58   379.63
+ 1.5   160.97    -0.15    69.07    43.97   185.87
+ 1.6    81.75    -0.57    34.86    22.06    94.39
+ 1.7    42.84    -0.60    18.12    11.38    49.47
+ 1.8    23.07    -0.60     9.65     6.00    26.64
+ 1.9    12.71    -0.60     5.24     3.21    14.68
+ 2.0     7.14    -0.60     2.88     1.73     8.24
+ 2.1     4.06    -0.60     1.59     0.93     4.69
+ 2.2     2.34    -0.58     0.88     0.49     2.70
+ 2.3     1.35    -0.48     0.48     0.25     1.56
+ 2.4     0.78    -0.37     0.25     0.11     0.90
+ 2.5     0.44    -0.27     0.12     0.04     0.51
+ 2.6     0.24    -0.20     0.05     0.00     0.28
+ 2.7     0.12    -0.14     0.01    -0.02     0.14
+ 2.8     0.05    -0.10    -0.01    -0.03     0.06
+ 2.9     0.01    -0.07    -0.02    -0.03     0.02
+ 3.0    -0.01    -0.05    -0.03    -0.03    -0.01
+ 3.1    -0.02    -0.04    -0.03    -0.03    -0.02
+ 3.2    -0.03    -0.03    -0.03    -0.03    -0.03
+ 3.3    -0.03    -0.02    -0.03    -0.03    -0.03
+ 3.4    -0.03    -0.02    -0.03    -0.03    -0.03
+ 3.5    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.6    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.7    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.8    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.9    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.0    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.1    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.2    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.3    -0.02    -0.00    -0.02    -0.01    -0.02
+ 4.4    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.5    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.6    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.7    -0.01    -0.00    -0.01    -0.01    -0.02
+ 4.8    -0.01    -0.00    -0.01    -0.01    -0.01
+ 4.9    -0.01    -0.00    -0.01    -0.01    -0.01
+ 5.0    -0.01    -0.00    -0.01    -0.01    -0.01
+
+
+
+EnergyTable:
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        HD        N        OA        SA    
+ ___ ________ ________ ________ ________ ________
+ 0.0    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.1    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.2    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.3    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.4    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.5    1e+05    1e+05    1e+05    1e+05    1e+05
+ 0.6    1e+05 35735.60    1e+05    1e+05    1e+05
+ 0.7    1e+05  8666.11    1e+05 70824.32    1e+05
+ 0.8 75860.38  2359.92 33010.17 21286.48 87596.02
+ 0.9 25440.38   700.69 11064.86  7132.00 29376.02
+ 1.0  9340.64   220.94  4059.50  2614.83 10785.64
+ 1.1  3701.64    71.96  1606.95  1034.02  4274.29
+ 1.2  1565.60    23.32   678.54   435.97  1807.80
+ 1.3   700.28     7.01   302.80   194.14   808.61
+ 1.4   328.77     1.56   141.70    90.58   379.63
+ 1.5   160.97    -0.15    69.07    43.97   185.87
+ 1.6    81.75    -0.57    34.86    22.06    94.39
+ 1.7    42.84    -0.60    18.12    11.38    49.47
+ 1.8    23.07    -0.60     9.65     6.00    26.64
+ 1.9    12.71    -0.60     5.24     3.21    14.68
+ 2.0     7.14    -0.60     2.88     1.73     8.24
+ 2.1     4.06    -0.60     1.59     0.93     4.69
+ 2.2     2.34    -0.58     0.88     0.49     2.70
+ 2.3     1.35    -0.48     0.48     0.25     1.56
+ 2.4     0.78    -0.37     0.25     0.11     0.90
+ 2.5     0.44    -0.27     0.12     0.04     0.51
+ 2.6     0.24    -0.20     0.05     0.00     0.28
+ 2.7     0.12    -0.14     0.01    -0.02     0.14
+ 2.8     0.05    -0.10    -0.01    -0.03     0.06
+ 2.9     0.01    -0.07    -0.02    -0.03     0.02
+ 3.0    -0.01    -0.05    -0.03    -0.03    -0.01
+ 3.1    -0.02    -0.04    -0.03    -0.03    -0.02
+ 3.2    -0.03    -0.03    -0.03    -0.03    -0.03
+ 3.3    -0.03    -0.02    -0.03    -0.03    -0.03
+ 3.4    -0.03    -0.02    -0.03    -0.03    -0.03
+ 3.5    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.6    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.7    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.8    -0.03    -0.01    -0.03    -0.03    -0.03
+ 3.9    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.0    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.1    -0.03    -0.00    -0.02    -0.02    -0.03
+ 4.2    -0.02    -0.00    -0.02    -0.02    -0.03
+ 4.3    -0.02    -0.00    -0.02    -0.01    -0.02
+ 4.4    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.5    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.6    -0.02    -0.00    -0.01    -0.01    -0.02
+ 4.7    -0.01    -0.00    -0.01    -0.01    -0.02
+ 4.8    -0.01    -0.00    -0.01    -0.01    -0.01
+ 4.9    -0.01    -0.00    -0.01    -0.01    -0.01
+ 5.0    -0.01    -0.00    -0.01    -0.01    -0.01
+
+Beginning grid calculations.
+
+Calculating 5 grids over 68921 elements, around 128 receptor atoms.
+
+                    Percent   Estimated Time  Time/this plane
+XY-plane  Z-coord   Done      Remaining       Real, User, System
+            /Ang              /sec            /sec
+________  ________  ________  ______________  __________________________
+
+    -20     26.182     2.4%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+    -19     26.557     4.9%            0.39s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -18     26.932     7.3%            0.38s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -17     27.307     9.8%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+    -16     27.682    12.2%            0.36s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -15     28.057    14.6%            0.35s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -14     28.432    17.1%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+    -13     28.807    19.5%            0.33s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -12     29.182    22.0%            0.32s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -11     29.557    24.4%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+    -10     29.932    26.8%            0.30s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     -9     30.307    29.3%            0.29s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     -8     30.682    31.7%            0.28s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     -7     31.057    34.1%            0.27s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     -6     31.432    36.6%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+     -5     31.807    39.0%            0.25s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     -4     32.182    41.5%            0.24s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     -3     32.557    43.9%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+     -2     32.932    46.3%            0.44s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     -1     33.307    48.8%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+      0     33.682    51.2%            0.20s  Real= 0.01,  CPU= 0.01,  System= 0.00
+      1     34.057    53.7%            0.19s  Real= 0.01,  CPU= 0.00,  System= 0.00
+      2     34.432    56.1%            0.18s  Real= 0.01,  CPU= 0.01,  System= 0.00
+      3     34.807    58.5%            0.17s  Real= 0.01,  CPU= 0.01,  System= 0.00
+      4     35.182    61.0%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+      5     35.557    63.4%            0.15s  Real= 0.01,  CPU= 0.01,  System= 0.00
+      6     35.932    65.9%            0.14s  Real= 0.01,  CPU= 0.00,  System= 0.00
+      7     36.307    68.3%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+      8     36.682    70.7%            0.12s  Real= 0.01,  CPU= 0.01,  System= 0.00
+      9     37.057    73.2%            0.11s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     10     37.432    75.6%            0.10s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     11     37.807    78.0%            0.09s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     12     38.182    80.5%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+     13     38.557    82.9%            0.07s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     14     38.932    85.4%            0.06s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     15     39.307    87.8%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+     16     39.682    90.2%            0.04s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     17     40.057    92.7%            0.03s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     18     40.432    95.1%            0.00s  Real= 0.00,  CPU= 0.01,  System= 0.00
+     19     40.807    97.6%            0.01s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     20     41.182   100.0%            0.00s  Real= 0.01,  CPU= 0.00,  System= 0.00
+
+Grid	Atom	Minimum   	Maximum
+Map 	Type	Energy    	Energy 
+		(kcal/mol)	(kcal/mol)
+____	____	_____________	_____________
+ 1	 C	   -0.64	 2.01e+05
+ 2	 HD	   -0.66	 1.02e+05
+ 3	 OA	   -0.99	 2.00e+05
+ 4	 e	  -20.42	 1.58e+01	Electrostatic Potential
+ 5	 d	    0.00	 8.60e-01	Desolvation Potential
+
+
+ * Note:  Every pairwise-atomic interaction was clamped at 100000.00
+
+
+autogrid4: Successful Completion.
+Real= 0.31s,  CPU= 0.30s,  System= 0.00s

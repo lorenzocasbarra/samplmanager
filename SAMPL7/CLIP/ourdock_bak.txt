@@ -1,0 +1,39 @@
+Predictions:
+clip-g11,  -5.78 
+clip-g19,  -7.19 
+clip-g18,  -6.86 
+clip-g2,  -7.85 
+clip-g6,  -5.75 
+clip-g8,  -9.14 
+clip-g17, -10.60 
+clip-g3,  -8.40 
+clip-g5,  -9.51 
+clip-g10,  -9.22 
+clip-g16,  -9.81 
+clip-g7,  -7.81 
+clip-g15,  -7.76 
+clip-g9,  -6.79 
+clip-g12,  -6.51 
+clip-g1,  -7.30 
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

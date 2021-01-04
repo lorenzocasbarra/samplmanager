@@ -1,0 +1,52 @@
+NAME
+    samplmanager2.pl
+
+SYNOPSIS
+    samplmanager2 -i/--input FILE/DIR [options]  
+
+OPTIONS
+    -d, --debug
+        Enables debug mode with extensive STDERR print.
+    -e, --evaluate
+        Enables evaluation. Input files should be official SAMPL submissions.
+        If -i/--input is a directory, all .txt files contained are evaluated.
+        Currently calculates Mean Unsigned Error (MUE),
+        Kendall's Correlation Coefficient, Pearsons' Correlation coefficient,
+        Angular coefficient and intercept of correlation line (based on Pearson correlation), 
+        Lin's Concordance correlation coefficient. Reference values for the evaluation must be
+        loaded from a .csv using option -r/--ref.
+    -f, --flags
+        Select infos to print in output file (-o/--output).
+        info list:
+        {
+            "Predictions"
+            "Participant name"
+            "Participant organization"
+            "Name"
+            "Software"
+            "Category"
+            "Ranked"
+        }
+        "Predictions" are set on during evaluations as default(-e/--evaluate).
+    -m, --map
+        Outputs a mapped file in mapped dir (must be created by user).
+        Input file must be obtained from an evaluation (-e/--evaluate).
+    -o, --output
+        Output file. Should be used during evaluation (-e/--evaluate).
+    -p, --prepare
+        Parse a directory with .dlg files and outputs ourdock.txt.
+    --plot
+        Plot a mapped file (from a -m/--map call). Outputs best predictions and our predictions as
+        input_best and input_our. Outputs a input.gplt and input.jpeg. Template .gplt file is
+        mandatory (-t/--template). Reference values are mandatory (-r/--ref)
+    -r, --ref
+        .csv file containg experimental values. This is mandatory during evaluation (-e/--evaluate option).
+    -s, --select
+        Filters submission to evaluate (-e/--evaluate) based on various informations.
+        Can be chained with -f/--flags to print different infos from filtered files.
+        e.g. -s "Category:Alchemical" -f "Predictions" will print only Predictions from files with Category
+        marked as "Alchemical"
+    -t, --template
+        Template .gplt file.
+    -v, --verbose
+        Enables verbose mode.

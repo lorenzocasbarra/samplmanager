@@ -1,0 +1,39 @@
+Predictions:
+MGLab_19-g1,-4.37
+MGLab_23-g1,-4.39
+MGLab_24-g1,-4.51
+MGLab_34-g1,-4.26
+MGLab_35-g1,-4.54852090560887
+MGLab_36-g1,-4.24
+MGLab_8-g1,-4.88097764236162
+MGLab_9-g1,-4.91253075326709
+MGLab_19-g2,-5.97
+MGLab_23-g2,-7.39129193159007
+MGLab_24-g2,-6.35
+MGLab_34-g2,-5.91
+MGLab_35-g2,-6.32401326694473
+MGLab_36-g2,-6.75
+MGLab_8-g2,-6.72852090560887
+MGLab_9-g2,-6.58
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

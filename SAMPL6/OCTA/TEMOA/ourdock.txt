@@ -1,0 +1,31 @@
+Predictions:
+TEMOA-G0,-5.97
+TEMOA-G1,-5.1012482162276
+TEMOA-G2,-7.53
+TEMOA-G3,-5.1612482162276
+TEMOA-G4,-7.09773419524354
+TEMOA-G5,-5.47644674619305
+TEMOA-G6,-5.42766165723121
+TEMOA-G7,-6.15168739668484
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

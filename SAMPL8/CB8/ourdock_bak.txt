@@ -1,0 +1,30 @@
+Predictions:
+CB8-G4,  -9.02 
+CB8-G3,  -9.24 
+CB8-G1,  -5.11 
+CB8-G7,  -6.92 
+CB8-G5,  -6.94 
+CB8-G6,  -7.60 
+CB8-G2,  -7.85 
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

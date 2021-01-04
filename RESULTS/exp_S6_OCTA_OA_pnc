@@ -1,0 +1,1261 @@
+>File
+m0qdw-973-OA-submission-15.txt
+>Category
+>Name
+US/PMF/MT/MD_15
+>Predictions
+HG	SUB	REF
+OA-G0	-9.59	-5.68
+OA-G1	-8.94	-4.65
+OA-G2	-11.45	-8.38
+OA-G3	-9.09	-5.18
+OA-G4	-11.44	-7.11
+OA-G5	-9.10	-4.59
+OA-G6	-9.00	-4.97
+OA-G7	-10.00	-6.22
+>mue
+3.97875
+>kendall
+0.785714285714284
+>pearson
+0.956225791319503
+>angular
+0.761363224144809
+>intercept
+-5.37417854681323
+>Lin
+0.128576985790584
+#
+>File
+ttmwo-973-OA-nobufferModelD-3.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/D
+>Predictions
+HG	SUB	REF
+OA-G0	-6.14	-5.68
+OA-G1	-5.80	-4.65
+OA-G2	-9.23	-8.38
+OA-G3	-3.58	-5.18
+OA-G4	-8.26	-7.11
+OA-G5	-4.58	-4.59
+OA-G6	-4.79	-4.97
+OA-G7	-5.26	-6.22
+>mue
+0.795
+>kendall
+0.571428571428566
+>pearson
+0.86844872666093
+>angular
+1.24435415936124
+>intercept
+1.32136094686484
+>Lin
+0.813169678133066
+#
+>File
+8pxph-973-OA-submission-27.txt
+>Category
+>Name
+US/PMF/MT/MD_27
+>Predictions
+HG	SUB	REF
+OA-G0	-6.64	-5.68
+OA-G1	-7.24	-4.65
+OA-G2	-10.02	-8.38
+OA-G3	-6.88	-5.18
+OA-G4	-9.00	-7.11
+OA-G5	-7.90	-4.59
+OA-G6	-7.17	-4.97
+OA-G7	-7.21	-6.22
+>mue
+1.91
+>kendall
+0.142857142857162
+>pearson
+0.807928517737113
+>angular
+0.711273140590805
+>intercept
+-3.59833031039527
+>Lin
+0.344635725375699
+#
+>File
+ogd0g-973-OA-submission-16.txt
+>Category
+>Name
+US/PMF/MT/MD_16
+>Predictions
+HG	SUB	REF
+OA-G0	-8.61	-5.68
+OA-G1	-8.17	-4.65
+OA-G2	-9.88	-8.38
+OA-G3	-8.27	-5.18
+OA-G4	-9.88	-7.11
+OA-G5	-8.27	-4.59
+OA-G6	-8.21	-4.97
+OA-G7	-8.89	-6.22
+>mue
+2.925
+>kendall
+0.785714285714278
+>pearson
+0.955861464611758
+>angular
+0.520457229457118
+>intercept
+-5.7291263507495
+>Lin
+0.152762578982796
+#
+>File
+finzb-973-OA-submission-19.txt
+>Category
+>Name
+US/PMF/MT/MD_19
+>Predictions
+HG	SUB	REF
+OA-G0	-5.87	-5.68
+OA-G1	-4.46	-4.65
+OA-G2	-8.45	-8.38
+OA-G3	-4.45	-5.18
+OA-G4	-7.51	-7.11
+OA-G5	-4.49	-4.59
+OA-G6	-4.21	-4.97
+OA-G7	-5.43	-6.22
+>mue
+0.40375
+>kendall
+0.571428571428786
+>pearson
+0.964081718271091
+>angular
+1.1502299448213
+>intercept
+1.11721960234258
+>Lin
+0.935067211677875
+#
+>File
+egmst-973-OA-submission-6.txt
+>Category
+>Name
+US/PMF/MT/MD_6
+>Predictions
+HG	SUB	REF
+OA-G0	-7.76	-5.68
+OA-G1	-6.07	-4.65
+OA-G2	-9.16	-8.38
+OA-G3	-7.18	-5.18
+OA-G4	-9.19	-7.11
+OA-G5	-7.56	-4.59
+OA-G6	-7.18	-4.97
+OA-G7	-7.49	-6.22
+>mue
+1.85125
+>kendall
+0.535714285714314
+>pearson
+0.866391930776302
+>angular
+0.678885382280741
+>intercept
+-3.72896772711337
+>Lin
+0.355053927319061
+#
+>File
+8jxan-973-OA-bufferModelD-6.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/D
+>Predictions
+HG	SUB	REF
+OA-G0	-6.45	-5.68
+OA-G1	-6.08	-4.65
+OA-G2	-9.49	-8.38
+OA-G3	-4.62	-5.18
+OA-G4	-9.92	-7.11
+OA-G5	-4.31	-4.59
+OA-G6	-5.91	-4.97
+OA-G7	-5.43	-6.22
+>mue
+1.08625
+>kendall
+0.499999999999996
+>pearson
+0.847918223270934
+>angular
+1.33244862012955
+>intercept
+1.26524330620752
+>Lin
+0.707523839384985
+#
+>File
+bjyua-973-OA-dft-4.txt
+>Category
+>Name
+DFT-opt
+>Predictions
+HG	SUB	REF
+OA-G0	-3.80	-5.68
+OA-G1	-3.61	-4.65
+OA-G2	-9.88	-8.38
+OA-G3	-4.17	-5.18
+OA-G4	-11.45	-7.11
+OA-G5	-5.24	-4.59
+OA-G6	-1.84	-4.97
+OA-G7	-4.51	-6.22
+>mue
+1.9075
+>kendall
+0.428571428571433
+>pearson
+0.814472405236543
+>angular
+2.03220839731886
+>intercept
+6.32083860332205
+>Lin
+0.558451080967027
+#
+>File
+aai8i-973-OA-submission-24.txt
+>Category
+>Name
+US/PMF/MT/MD_24
+>Predictions
+HG	SUB	REF
+OA-G0	-6.78	-5.68
+OA-G1	-6.88	-4.65
+OA-G2	-10.12	-8.38
+OA-G3	-6.60	-5.18
+OA-G4	-8.44	-7.11
+OA-G5	-7.71	-4.59
+OA-G6	-5.97	-4.97
+OA-G7	-7.26	-6.22
+>mue
+1.6225
+>kendall
+0.428571428571435
+>pearson
+0.845801086208058
+>angular
+0.828268904446946
+>intercept
+-2.62669758124648
+>Lin
+0.45301952761599
+#
+>File
+xcuey-973-OA-submission-18.txt
+>Category
+>Name
+US/PMF/MT/MD_18
+>Predictions
+HG	SUB	REF
+OA-G0	-8.79	-5.68
+OA-G1	-7.91	-4.65
+OA-G2	-10.42	-8.38
+OA-G3	-7.90	-5.18
+OA-G4	-9.83	-7.11
+OA-G5	-7.93	-4.59
+OA-G6	-7.75	-4.97
+OA-G7	-8.52	-6.22
+>mue
+2.78375
+>kendall
+0.57142857142882
+>pearson
+0.964088026231427
+>angular
+0.724080321479395
+>intercept
+-4.39719032014924
+>Lin
+0.220704757868098
+#
+>File
+yedi3-973-OA-XiaodongRen-1.txt
+>Category
+>Name
+DDM/GAFF/AM1-BCC/TIP3P
+>Predictions
+HG	SUB	REF
+OA-G0	-8.4	-5.68
+OA-G1	-7.9	-4.65
+OA-G2	-13.7	-8.38
+OA-G3	-5.9	-5.18
+OA-G4	-6.6	-7.11
+OA-G5	-8.2	-4.59
+OA-G6	-3.8	-4.97
+OA-G7	-6.6	-6.22
+>mue
+2.21
+>kendall
+0.178571428571433
+>pearson
+0.63716635928757
+>angular
+1.37319984038887
+>intercept
+0.392286066673941
+>Lin
+0.356164283317321
+#
+>File
+7uted-973-OA-submission-23.txt
+>Category
+>Name
+US/PMF/MT/MD_23
+>Predictions
+HG	SUB	REF
+OA-G0	-3.70	-5.68
+OA-G1	-3.82	-4.65
+OA-G2	-7.70	-8.38
+OA-G3	-3.48	-5.18
+OA-G4	-5.69	-7.11
+OA-G5	-4.81	-4.59
+OA-G6	-2.72	-4.97
+OA-G7	-4.28	-6.22
+>mue
+1.3775
+>kendall
+0.428571428571434
+>pearson
+0.846108765112035
+>angular
+0.993595401909692
+>intercept
+1.28504911266693
+>Lin
+0.566646745126884
+#
+>File
+bhns3-973-OA-nobufferModelA-1.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/A
+>Predictions
+HG	SUB	REF
+OA-G0	-10.47	-5.68
+OA-G1	-10.00	-4.65
+OA-G2	-14.67	-8.38
+OA-G3	-7.19	-5.18
+OA-G4	-13.34	-7.11
+OA-G5	-8.41	-4.59
+OA-G6	-8.66	-4.97
+OA-G7	-9.35	-6.22
+>mue
+4.41375
+>kendall
+0.571428571428567
+>pearson
+0.876496075667224
+>angular
+1.67459684082821
+>intercept
+-0.469044973257024
+>Lin
+0.194567575965403
+#
+>File
+c8jfq-973-OA-sqm-3.txt
+>Category
+>Name
+SQM-opt
+>Predictions
+HG	SUB	REF
+OA-G0	-5.83	-5.68
+OA-G1	-6.20	-4.65
+OA-G2	-5.13	-8.38
+OA-G3	-3.99	-5.18
+OA-G4	-10.55	-7.11
+OA-G5	-3.92	-4.59
+OA-G6	-3.99	-4.97
+OA-G7	-4.88	-6.22
+>mue
+1.57125
+>kendall
+0.39285714285713
+>pearson
+0.4225901065487
+>angular
+0.695995211666124
+>intercept
+-1.49141799978234
+>Lin
+0.369682476645768
+#
+>File
+ibhca-973-OA-bufferModelC-5.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/C
+>Predictions
+HG	SUB	REF
+OA-G0	-8.80	-5.68
+OA-G1	-8.31	-4.65
+OA-G2	-12.82	-8.38
+OA-G3	-6.38	-5.18
+OA-G4	-13.39	-7.11
+OA-G5	-5.97	-4.59
+OA-G6	-8.08	-4.97
+OA-G7	-7.46	-6.22
+>mue
+3.05375
+>kendall
+0.499999999999996
+>pearson
+0.848367960581496
+>angular
+1.76289887667623
+>intercept
+1.40730118136423
+>Lin
+0.311138641065942
+#
+>File
+o3aiv-973-OA-submission-26.txt
+>Category
+>Name
+US/PMF/MT/MD_26
+>Predictions
+HG	SUB	REF
+OA-G0	-5.20	-5.68
+OA-G1	-6.01	-4.65
+OA-G2	-9.80	-8.38
+OA-G3	-5.53	-5.18
+OA-G4	-8.41	-7.11
+OA-G5	-6.92	-4.59
+OA-G6	-5.93	-4.97
+OA-G7	-5.98	-6.22
+>mue
+1.055
+>kendall
+0.142857142857164
+>pearson
+0.807826975373824
+>angular
+0.967255534999581
+>intercept
+-1.06647325908995
+>Lin
+0.66082792462598
+#
+>File
+8fcb6-973-oa-ponder-1.txt
+>Category
+>Name
+AMOEBA/BAR/Tinker
+>Predictions
+HG	SUB	REF
+OA-G0	-7.23	-5.68
+OA-G1	-3.79	-4.65
+OA-G2	-3.54	-8.38
+OA-G3	-5.91	-5.18
+OA-G4	-4.12	-7.11
+OA-G5	-5.35	-4.59
+OA-G6	-5.92	-4.97
+OA-G7	-4.75	-6.22
+>mue
+1.76875
+>kendall
+-0.285714285714102
+>pearson
+-0.482911845635951
+>angular
+-0.457952946961546
+>intercept
+-7.75412985735764
+>Lin
+-0.401202341122362
+#
+>File
+mdqkg-973-OA-bufferModelA-4.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P/MBAR/A
+>Predictions
+HG	SUB	REF
+OA-G0	-11.03	-5.68
+OA-G1	-10.05	-4.65
+OA-G2	-14.98	-8.38
+OA-G3	-8.52	-5.18
+OA-G4	-15.50	-7.11
+OA-G5	-8.05	-4.59
+OA-G6	-10.22	-4.97
+OA-G7	-9.59	-6.22
+>mue
+5.145
+>kendall
+0.571428571428566
+>pearson
+0.862611359056833
+>angular
+1.80710833806928
+>intercept
+-0.425433993139913
+>Lin
+0.160919989907259
+#
+>File
+mknyd-973-OA-submission-2.txt
+>Category
+>Name
+US/PMF/MT/MD_2
+>Predictions
+HG	SUB	REF
+OA-G0	-5.66	-5.68
+OA-G1	-5.13	-4.65
+OA-G2	-8.61	-8.38
+OA-G3	-4.12	-5.18
+OA-G4	-7.48	-7.11
+OA-G5	-4.12	-4.59
+OA-G6	-4.49	-4.97
+OA-G7	-5.26	-6.22
+>mue
+0.50875
+>kendall
+0.678571428571423
+>pearson
+0.939161770869503
+>angular
+1.14835169264379
+>intercept
+1.10623652273453
+>Lin
+0.907122537056582
+#
+>File
+kuovg-973-OA-WGatMSU-1.txt
+>Category
+>Name
+BSSE-corrected RI-B3PW91-D3 (SMD)/CBS
+>Predictions
+HG	SUB	REF
+OA-G0	-41.3616	-5.68
+OA-G1	-40.6674	-4.65
+OA-G2	6.5376	-8.38
+OA-G3	-47.9447	-5.18
+OA-G4	-48.1913	-7.11
+OA-G5	-38.3990	-4.59
+OA-G6	-43.1940	-4.97
+OA-G7	-47.3730	-6.22
+>mue
+35.456075
+>kendall
+0.28571428571428
+>pearson
+-0.65977814967015
+>angular
+-9.01950863149582
+>intercept
+-90.3157517226718
+>Lin
+-0.02155144803781
+#
+>File
+4ndha-973-OA-submission-7.txt
+>Category
+>Name
+US/PMF/MT/MD_7
+>Predictions
+HG	SUB	REF
+OA-G0	-7.16	-5.68
+OA-G1	-5.94	-4.65
+OA-G2	-8.17	-8.38
+OA-G3	-6.74	-5.18
+OA-G4	-8.18	-7.11
+OA-G5	-7.02	-4.59
+OA-G6	-6.74	-4.97
+OA-G7	-6.96	-6.22
+>mue
+1.31875
+>kendall
+0.535714285714473
+>pearson
+0.865916459607176
+>angular
+0.488262939182518
+>intercept
+-4.25863246313022
+>Lin
+0.415196159916645
+#
+>File
+rc4qr-973-OA-submission-14.txt
+>Category
+>Name
+US/PMF/MT/MD_14
+>Predictions
+HG	SUB	REF
+OA-G0	-6.83	-5.68
+OA-G1	-6.80	-4.65
+OA-G2	-11.24	-8.38
+OA-G3	-7.40	-5.18
+OA-G4	-9.31	-7.11
+OA-G5	-7.63	-4.59
+OA-G6	-7.17	-4.97
+OA-G7	-8.20	-6.22
+>mue
+2.225
+>kendall
+0.571428571428556
+>pearson
+0.928190293374068
+>angular
+1.06091018649513
+>intercept
+-1.86882768446973
+>Lin
+0.385852396414357
+#
+>File
+null3-973-OA-null1-3.txt
+>Category
+>Name
+NULL
+>Predictions
+HG	SUB	REF
+OA-G0	-32.58567159	-5.68
+OA-G1	-30.39634188	-4.65
+OA-G2	-41.37830685	-8.38
+OA-G3	-24.09193016	-5.18
+OA-G4	-41.25728435	-7.11
+OA-G5	-20.06602834	-4.59
+OA-G6	-29.96944836	-4.97
+OA-G7	-26.39773872	-6.22
+>mue
+24.92034378125
+>kendall
+0.571428571428566
+>pearson
+0.807678470458321
+>angular
+4.6142720494976
+>intercept
+-3.78588797181281
+>Lin
+0.0212574390865306
+#
+>File
+iv75a-973-OA-nobufferModelC-2.txt
+>Category
+>Name
+SOMD/AM1BCC-GAFF-TIP3P-NOBUFFER/MBAR/C
+>Predictions
+HG	SUB	REF
+OA-G0	-8.40	-5.68
+OA-G1	-7.94	-4.65
+OA-G2	-12.48	-8.38
+OA-G3	-5.01	-5.18
+OA-G4	-11.20	-7.11
+OA-G5	-6.33	-4.59
+OA-G6	-6.60	-4.97
+OA-G7	-7.22	-6.22
+>mue
+2.3425
+>kendall
+0.571428571428567
+>pearson
+0.868341547140091
+>angular
+1.64643313462554
+>intercept
+1.48001775472285
+>Lin
+0.411271363487628
+#
+>File
+gkdce-973-OA-submission-13.txt
+>Category
+>Name
+US/PMF/MT/MD_13
+>Predictions
+HG	SUB	REF
+OA-G0	-7.10	-5.68
+OA-G1	-7.07	-4.65
+OA-G2	-11.91	-8.38
+OA-G3	-7.73	-5.18
+OA-G4	-9.81	-7.11
+OA-G5	-7.98	-4.59
+OA-G6	-7.48	-4.97
+OA-G7	-8.60	-6.22
+>mue
+2.6125
+>kendall
+0.571428571428556
+>pearson
+0.927760439507192
+>angular
+1.15571355445118
+>intercept
+-1.70196499034673
+>Lin
+0.332422869491423
+#
+>File
+ourdock.txt
+>Category
+Docking
+>Name
+autodock4_default
+>Predictions
+HG	SUB	REF
+OA-G0	-6.26644674619305	-5.68
+OA-G1	-5.01087586495511	-4.65
+OA-G2	-7.64229489946455	-8.38
+OA-G3	-4.82644674619305	-5.18
+OA-G4	-7.03349519028518	-7.11
+OA-G5	-5.10209934766372	-4.59
+OA-G6	-5.18168739668484	-4.97
+OA-G7	-5.80766165723121	-6.22
+>mue
+0.406401357790341
+>kendall
+0.642857142857147
+>pearson
+0.947063226438887
+>angular
+0.738614686345164
+>intercept
+-1.53982660268049
+>Lin
+0.918487862359006
+#
+>File
+8brzp-973-OA-WGatMSU-1.txt
+>Category
+>Name
+EKEN-DIAZ/MD/MMPBSA
+>Predictions
+HG	SUB	REF
+OA-G0	-12.5818	-5.68
+OA-G1	-11.6401	-4.65
+OA-G2	-18.1635	-8.38
+OA-G3	-10.0210	-5.18
+OA-G4	-16.9746	-7.11
+OA-G5	-9.1263	-4.59
+OA-G6	-11.2557	-4.97
+OA-G7	-11.4328	-6.22
+>mue
+6.801975
+>kendall
+0.642857142857138
+>pearson
+0.917907641694275
+>angular
+2.22484423807854
+>intercept
+0.360301682164268
+>Lin
+0.121204929854409
+#
+>File
+uui3y-973-OA-submission-20.txt
+>Category
+>Name
+US/PMF/MT/MD_20
+>Predictions
+HG	SUB	REF
+OA-G0	-6.32	-5.68
+OA-G1	-5.19	-4.65
+OA-G2	-10.48	-8.38
+OA-G3	-5.70	-5.18
+OA-G4	-7.14	-7.11
+OA-G5	-6.32	-4.59
+OA-G6	-4.85	-4.97
+OA-G7	-6.94	-6.22
+>mue
+0.8
+>kendall
+0.678571428571433
+>pearson
+0.910305811978186
+>angular
+1.19775657690556
+>intercept
+0.386381583455282
+>Lin
+0.7693663931816
+#
+>File
+e032m-973-OA-submission-8.txt
+>Category
+>Name
+US/PMF/MT/MD_8
+>Predictions
+HG	SUB	REF
+OA-G0	-7.90	-5.68
+OA-G1	-10.16	-4.65
+OA-G2	-10.61	-8.38
+OA-G3	-11.59	-5.18
+OA-G4	-17.31	-7.11
+OA-G5	-6.97	-4.59
+OA-G6	-13.47	-4.97
+OA-G7	-13.32	-6.22
+>mue
+5.56875
+>kendall
+0.357142857142853
+>pearson
+0.384285969261318
+>angular
+0.95722542653656
+>intercept
+-5.81887431832747
+>Lin
+0.0703752811975356
+#
+>File
+widya-973-OA-submission-3.txt
+>Category
+>Name
+US/PMF/MT/MD_3
+>Predictions
+HG	SUB	REF
+OA-G0	-10.01	-5.68
+OA-G1	-8.76	-4.65
+OA-G2	-10.98	-8.38
+OA-G3	-7.98	-5.18
+OA-G4	-10.45	-7.11
+OA-G5	-7.96	-4.59
+OA-G6	-7.33	-4.97
+OA-G7	-7.68	-6.22
+>mue
+3.04625
+>kendall
+0.49999999999995
+>pearson
+0.762381403518179
+>angular
+0.800117289996491
+>intercept
+-4.21506414674552
+>Lin
+0.197906203875446
+#
+>File
+emfe8-973-OA-submission-12.txt
+>Category
+>Name
+US/PMF/MT/MD_12
+>Predictions
+HG	SUB	REF
+OA-G0	-6.78	-5.68
+OA-G1	-6.45	-4.65
+OA-G2	-8.04	-8.38
+OA-G3	-7.18	-5.18
+OA-G4	-7.05	-7.11
+OA-G5	-6.88	-4.59
+OA-G6	-6.68	-4.97
+OA-G7	-7.39	-6.22
+>mue
+1.30875
+>kendall
+0.571428571428575
+>pearson
+0.835504646387291
+>angular
+0.3102924994861
+>intercept
+-5.24181460925503
+>Lin
+0.298334608938276
+#
+>File
+ftout-973-OA-submission-21.txt
+>Category
+>Name
+US/PMF/MT/MD_21
+>Predictions
+HG	SUB	REF
+OA-G0	-7.05	-5.68
+OA-G1	-5.95	-4.65
+OA-G2	-11.09	-8.38
+OA-G3	-6.45	-5.18
+OA-G4	-7.84	-7.11
+OA-G5	-7.05	-4.59
+OA-G6	-5.63	-4.97
+OA-G7	-7.65	-6.22
+>mue
+1.49125
+>kendall
+0.678571428571433
+>pearson
+0.91011821397945
+>angular
+1.1620959843291
+>intercept
+-0.54339373163561
+>Lin
+0.571825941054147
+#
+>File
+nb8jk-973-OA-submission-5.txt
+>Category
+>Name
+US/PMF/MT/MD_5
+>Predictions
+HG	SUB	REF
+OA-G0	-8.35	-5.68
+OA-G1	-5.88	-4.65
+OA-G2	-10.40	-8.38
+OA-G3	-7.50	-5.18
+OA-G4	-10.43	-7.11
+OA-G5	-8.06	-4.59
+OA-G6	-7.50	-4.97
+OA-G7	-7.95	-6.22
+>mue
+2.41125
+>kendall
+0.535714285714311
+>pearson
+0.866565311852544
+>angular
+0.991876357803011
+>intercept
+-2.4587529977469
+>Lin
+0.327372657739842
+#
+>File
+gemch-973-OA-FSDAM-1.txt
+>Category
+>Name
+FS-DAM/GAFF2/TIP3P
+>Predictions
+HG	SUB	REF
+OA-G0	-7.06	-5.68
+OA-G1	-6.19	-4.65
+OA-G2	-11.39	-8.38
+OA-G3	-5.77	-5.18
+OA-G4	-11.19	-7.11
+OA-G5	-5.73	-4.59
+OA-G6	-5.46	-4.97
+OA-G7	-6.38	-6.22
+>mue
+1.54875
+>kendall
+0.714285714285697
+>pearson
+0.914654885739155
+>angular
+1.68526176628256
+>intercept
+2.45831817833725
+>Lin
+0.567265314705712
+#
+>File
+w2q3q-973-OA-mm-1.txt
+>Category
+>Name
+FEP-MM
+>Predictions
+HG	SUB	REF
+OA-G0	-4.58	-5.68
+OA-G1	-3.84	-4.65
+OA-G2	-6.38	-8.38
+OA-G3	-3.14	-5.18
+OA-G4	-7.62	-7.11
+OA-G5	-2.46	-4.59
+OA-G6	-4.02	-4.97
+OA-G7	-4.89	-6.22
+>mue
+1.35875
+>kendall
+0.78571428571428
+>pearson
+0.858205874480642
+>angular
+1.08959786862714
+>intercept
+1.75517353679723
+>Lin
+0.607088358576983
+#
+>File
+ahtcq-973-OA-qm-2.txt
+>Category
+>Name
+FEP-QM/MM
+>Predictions
+HG	SUB	REF
+OA-G0	-4.49	-5.68
+OA-G1	-2.54	-4.65
+OA-G2	-6.45	-8.38
+OA-G3	-3.56	-5.18
+OA-G4	-6.98	-7.11
+OA-G5	-2.33	-4.59
+OA-G6	-3.84	-4.97
+OA-G7	-3.87	-6.22
+>mue
+1.59
+>kendall
+0.78571428571426
+>pearson
+0.902036497643605
+>angular
+1.1381442384816
+>intercept
+2.39779843452116
+>Lin
+0.539102428258599
+#
+>File
+gt5n0-973-OA-submission-4.txt
+>Category
+>Name
+US/PMF/MT/MD_4
+>Predictions
+HG	SUB	REF
+OA-G0	-8.75	-5.68
+OA-G1	-7.48	-4.65
+OA-G2	-9.72	-8.38
+OA-G3	-6.69	-5.18
+OA-G4	-9.19	-7.11
+OA-G5	-6.68	-4.59
+OA-G6	-6.04	-4.97
+OA-G7	-6.39	-6.22
+>mue
+1.77
+>kendall
+0.499999999999816
+>pearson
+0.761490083117528
+>angular
+0.80691083944975
+>intercept
+-2.89908886631759
+>Lin
+0.389507271754463
+#
+>File
+4ysuf-973-OA-submission-1.txt
+>Category
+>Name
+US/PMF/MT/MD_1
+>Predictions
+HG	SUB	REF
+OA-G0	-8.74	-5.68
+OA-G1	-8.02	-4.65
+OA-G2	-12.81	-8.38
+OA-G3	-6.63	-5.18
+OA-G4	-11.25	-7.11
+OA-G5	-6.63	-4.59
+OA-G6	-7.13	-4.97
+OA-G7	-8.2	-6.22
+>mue
+2.82875
+>kendall
+0.678571428571423
+>pearson
+0.93933693446948
+>angular
+1.58093412816451
+>intercept
+0.568262314441984
+>Lin
+0.351595193734589
+#
+>File
+iaz7f-973-OA-submission-17.txt
+>Category
+>Name
+US/PMF/MT/MD_17
+>Predictions
+HG	SUB	REF
+OA-G0	-7.77	-5.68
+OA-G1	-7.45	-4.65
+OA-G2	-8.68	-8.38
+OA-G3	-7.52	-5.18
+OA-G4	-8.68	-7.11
+OA-G5	-7.53	-4.59
+OA-G6	-7.48	-4.97
+OA-G7	-7.97	-6.22
+>mue
+2.0375
+>kendall
+0.750000000000156
+>pearson
+0.955321317324015
+>angular
+0.373578715291633
+>intercept
+-5.70049846233218
+>Lin
+0.19507338982266
+#
+>File
+7fk2x-973-OA-submission-11.txt
+>Category
+>Name
+US/PMF/MT/MD_11
+>Predictions
+HG	SUB	REF
+OA-G0	-7.23	-5.68
+OA-G1	-6.78	-4.65
+OA-G2	-8.98	-8.38
+OA-G3	-7.79	-5.18
+OA-G4	-7.61	-7.11
+OA-G5	-7.37	-4.59
+OA-G6	-7.09	-4.97
+OA-G7	-8.09	-6.22
+>mue
+1.77
+>kendall
+0.571428571428575
+>pearson
+0.835141549505565
+>angular
+0.430776733856507
+>intercept
+-5.09853304877407
+>Lin
+0.262153258979272
+#
+>File
+s78rs-973-OA-submission-10.txt
+>Category
+>Name
+US/PMF/MT/MD_10
+>Predictions
+HG	SUB	REF
+OA-G0	-7.58	-5.68
+OA-G1	-6.92	-4.65
+OA-G2	-10.14	-8.38
+OA-G3	-8.39	-5.18
+OA-G4	-8.13	-7.11
+OA-G5	-7.78	-4.59
+OA-G6	-7.38	-4.97
+OA-G7	-8.83	-6.22
+>mue
+2.29625
+>kendall
+0.571428571428576
+>pearson
+0.835998997505258
+>angular
+0.630131437346584
+>intercept
+-4.45905642011585
+>Lin
+0.253650317473579
+#
+>File
+iyo2o-973-OA-submission-22.txt
+>Category
+>Name
+US/PMF/MT/MD_22
+>Predictions
+HG	SUB	REF
+OA-G0	-6.26	-5.68
+OA-G1	-5.63	-4.65
+OA-G2	-8.55	-8.38
+OA-G3	-5.92	-5.18
+OA-G4	-6.71	-7.11
+OA-G5	-6.25	-4.59
+OA-G6	-5.45	-4.97
+OA-G7	-6.60	-6.22
+>mue
+0.67375
+>kendall
+0.714285714285538
+>pearson
+0.911456527494742
+>angular
+0.66092913024026
+>intercept
+-2.55646691092008
+>Lin
+0.760513506682032
+#
+>File
+vgqcz-973-OA-submission-25.txt
+>Category
+>Name
+US/PMF/MT/MD_25
+>Predictions
+HG	SUB	REF
+OA-G0	-6.64	-5.68
+OA-G1	-6.73	-4.65
+OA-G2	-9.56	-8.38
+OA-G3	-6.48	-5.18
+OA-G4	-8.09	-7.11
+OA-G5	-7.45	-4.59
+OA-G6	-5.93	-4.97
+OA-G7	-7.06	-6.22
+>mue
+1.395
+>kendall
+0.428571428571435
+>pearson
+0.845928951791122
+>angular
+0.724332232983881
+>intercept
+-3.00696726762676
+>Lin
+0.484802460309965
+#
+>File
+rkitq-973-OA-submission-9.txt
+>Category
+>Name
+US/PMF/MT/MD_9
+>Predictions
+HG	SUB	REF
+OA-G0	-5.20	-5.68
+OA-G1	-5.56	-4.65
+OA-G2	-5.63	-8.38
+OA-G3	-5.79	-5.18
+OA-G4	-6.70	-7.11
+OA-G5	-5.05	-4.59
+OA-G6	-6.09	-4.97
+OA-G7	-6.07	-6.22
+>mue
+0.86125
+>kendall
+0.357142857142893
+>pearson
+0.382799371907949
+>angular
+0.152317787370568
+>intercept
+-4.8705717383506
+>Lin
+0.261911114961449
+#
+>File
+5r5n7-973-OA-WGatMSU-2.txt
+>Category
+>Name
+BSSE-corrected RI-B3PW91 (SMD)/CBS
+>Predictions
+HG	SUB	REF
+OA-G0	-16.5671	-5.68
+OA-G1	-17.1499	-4.65
+OA-G2	44.5279	-8.38
+OA-G3	-17.6235	-5.18
+OA-G4	-13.4884	-7.11
+OA-G5	-16.4165	-4.59
+OA-G6	-23.3116	-4.97
+OA-G7	-23.7767	-6.22
+>mue
+17.8552
+>kendall
+-0.21428571428572
+>pearson
+-0.77763997124407
+>angular
+-13.1442456963439
+>intercept
+-87.3367017093709
+>Lin
+-0.0874776930684683
+#

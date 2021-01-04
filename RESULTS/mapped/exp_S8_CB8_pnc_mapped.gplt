@@ -1,0 +1,10 @@
+set terminal jpeg enhanced size 800,600
+set output "./workspace/RESULTS/mapped/exp_S8_CB8_pnc_mapped.gplt.jpeg"
+set size square
+set xlabel "exp." font "Times,14"
+set ylabel "pred" font "Times,14"
+set title "exp_S8_CB8_pnc_mapped" noenhanced
+set key left top
+set xrange [-19.21:-5.32]
+set yrange [-19.21:-5.32]
+plot './workspace/RESULTS/mapped/exp_S8_CB8_pnc_mapped_best' u 3:2 w p notitle linecolor 1,'./workspace/RESULTS/mapped/exp_S8_CB8_pnc_mapped_our' u 3:2 w p notitle linecolor 2,x notitle linecolor 0, 1.21922483865225*x+1.64766056906942  title "CB8_NIH8" noenhanced linetype 5 linecolor 1, 0.30825203334311*x+-5.2469611502455 title "ourdock" noenhanced linetype 7 linecolor 2

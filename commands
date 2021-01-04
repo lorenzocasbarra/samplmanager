@@ -1,0 +1,52 @@
+#   Run autodock 
+#samplstarter.pl --input projects
+#   Parse .dlg files and outputs ourdock.txt in same folder and ANALYSIS folder
+#
+samplmanager.pl --input ./workspace/SAMPL6/CB8 -p
+samplmanager.pl --input ./workspace/SAMPL6/OCTA/TEMOA -p
+samplmanager.pl --input ./workspace/SAMPL6/OCTA/OA -p
+samplmanager.pl --input ./workspace/SAMPL7/GDCC/exoOA -p
+samplmanager.pl --input ./workspace/SAMPL7/GDCC/OA -p
+samplmanager.pl --input ./workspace/SAMPL7/CDD/bCD -p
+samplmanager.pl --input ./workspace/SAMPL7/CDD/MGLab -p
+samplmanager.pl --input ./workspace/SAMPL7/CLIP -p
+samplmanager.pl --input ./workspace/SAMPL8/CB8 -p
+#
+#   Evaluates all Predictions parsing .txt files in ANALYSIS and outputs ./YOUR/PATH/TO/RESULTS/exp
+#   exp file contains infos marked with -f argument, "Predictions" are set as default during evaluation 
+#
+samplmanager.pl --input ./workspace/SAMPL6/CB8/ANALYSIS/ --ref ./workspace/SAMPL6/CB8/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S6_CB8_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL6/OCTA/OA/ANALYSIS/ --ref ./workspace/SAMPL6/OCTA/OA/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S6_OCTA_OA_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL6/OCTA/TEMOA/ANALYSIS/ --ref ./workspace/SAMPL6/OCTA/TEMOA/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S6_OCTA_TEMOA_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL7/CDD/bCD/ANALYSIS/ --ref ./workspace/SAMPL7/CDD/bCD/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S7_CDD_bCD_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL7/CDD/MGLab/ANALYSIS/ --ref ./workspace/SAMPL7/CDD/MGLab/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S7_CDD_MGLab_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL7/GDCC/OA/ANALYSIS/ --ref ./workspace/SAMPL7/GDCC/OA/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S7_GDCC_OA_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL7/GDCC/exoOA/ANALYSIS/ --ref ./workspace/SAMPL7/GDCC/exoOA/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S7_GDCC_exoOA_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL7/CLIP/ANALYSIS/ --ref ./workspace/SAMPL7/CLIP/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S7_clip_pnc -f "Name" -f "Category" -ve
+samplmanager.pl --input ./workspace/SAMPL8/CB8/ANALYSIS/ --ref ./workspace/SAMPL8/CB8/ANALYSIS/experimental_measurements.csv --output ./workspace/RESULTS/exp_S8_CB8_pnc -f "Name" -f "Category" -ve
+#
+#   Maps exp files and outputs ./YOUR/PATH/TO/RESULTS/mapped/exp_mapped
+#
+samplmanager.pl -i ./workspace/RESULTS/exp_S6_CB8_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S6_OCTA_OA_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S6_OCTA_TEMOA_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S7_CDD_bCD_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S7_CDD_MGLab_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S7_clip_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S7_GDCC_OA_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S7_GDCC_exoOA_pnc -vm
+samplmanager.pl -i ./workspace/RESULTS/exp_S8_CB8_pnc -vm
+#
+#   Plot best Predictions and our Predictions contained in mapped file
+#   correct reference values must be loaded with --ref
+#   base .gplt is file.gplt
+#
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S6_OCTA_OA_pnc_mapped.tsv --ref ./workspace/SAMPL6/OCTA/OA/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S6_OCTA_TEMOA_pnc_mapped.tsv --ref ./workspace/SAMPL6/OCTA/TEMOA/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S6_CB8_pnc_mapped.tsv --ref ./workspace/SAMPL6/CB8/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S7_CDD_bCD_pnc_mapped.tsv --ref ./workspace/SAMPL7/CDD/bCD/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S7_CDD_MGLab_pnc_mapped.tsv --ref ./workspace/SAMPL7/CDD/MGLab/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S7_clip_pnc_mapped.tsv --ref ./workspace/SAMPL7/CLIP/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S7_GDCC_OA_pnc_mapped.tsv --ref ./workspace/SAMPL7/GDCC/OA/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S7_GDCC_exoOA_pnc_mapped.tsv --ref ./workspace/SAMPL7/GDCC/exoOA/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot
+samplmanager.pl -i ./workspace/RESULTS/mapped/exp_S8_CB8_pnc_mapped.tsv --ref ./workspace/SAMPL8/CB8/ANALYSIS/experimental_measurements.csv -t ./workspace/file.gplt --plot

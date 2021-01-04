@@ -1,0 +1,31 @@
+Predictions:
+exoOA-g1,-4.389547357327
+exoOA-g2,-5.43
+exoOA-g3,-6.87087586495511
+exoOA-g4,-6.62503348264813
+exoOA-g5,-7.97087586495512
+exoOA-g6,-6.83609183938539
+exoOA-g7,-8.44609183938539
+exoOA-g8,-9.88
+#
+Name:
+autodock4_default
+#
+Participant name:
+Lorenzo Casbarra
+#
+Participant organization:
+University of Florence, Italy
+#
+Software:
+autodock4_default
+#
+Method:
+autodock_default
+#
+Category:
+Docking
+#
+Ranked:
+No
+#

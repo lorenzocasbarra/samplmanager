@@ -1,0 +1,10 @@
+set terminal jpeg enhanced size 800,600
+set output "NAME.jpeg"
+set size square
+set xlabel "exp." font "Times,14"
+set ylabel "pred" font "Times,14"
+set title "TITLE" noenhanced
+set key left top
+set xrange [XMI:XMA]
+set yrange [XMI:XMA]
+plot 'BEST' u 3:2 w p notitle linecolor 1,'OUR' u 3:2 w p notitle linecolor 2,x notitle linecolor 0, AYX*x+BYX  title "Best" noenhanced linetype 5 linecolor 1, CYX*x+DYX title "Our" noenhanced linetype 7 linecolor 2
